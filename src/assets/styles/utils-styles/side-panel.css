@@ -1,5 +1,5 @@
 .sidepanel {
-  width: 90%; /*!this will actually be 0 when js is ready*/
+  width: 0; /*!this will actually be 0 when js is ready*/
   position: fixed;
   z-index: 1;
   height: 100%;
