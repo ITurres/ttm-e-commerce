@@ -1,0 +1,27 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: sans-serif;
+  line-height: 1.4;
+  background-color: rgb(31, 27, 27);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

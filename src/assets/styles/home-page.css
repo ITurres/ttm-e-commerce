@@ -1,0 +1,20 @@
+/*resets*/
+@import "resets/normalize.css";
+
+/*variables*/
+@import "variables/colors.css";
+
+/*animations*/
+@import "animations/animations.css";
+
+/*base*/
+@import "base/base.css";
+
+/*utils-styles*/
+@import "utils-styles/navbar.css";
+@import "utils-styles/side-panel.css";
+
+/*page-sections*/
+
+/*config*/
+@import "config/breakpoints/navbar-breakpoints.css";
