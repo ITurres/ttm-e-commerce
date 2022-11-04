@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" data-navbar>
         <div class="navbar__items">
           <span
             class="navbar__item navbar__open-menu_btn symbol btn"
@@ -41,7 +41,10 @@
 
       <nav class="sidepanel">
         <div class="sidepanel__header">
-          <span class="sidepanel__close-menu_btn material-symbols-outlined btn" data-close-sidepanel-btn>
+          <span
+            class="sidepanel__close-menu_btn material-symbols-outlined btn"
+            data-close-sidepanel-btn
+          >
             close
           </span>
           <img
@@ -55,7 +58,9 @@
         </div>
         <div class="sidepanel__content">
           <ul class="content__list">
-            <li class="content__list--items btn"><a href="#">All Watches</a></li>
+            <li class="content__list--items btn">
+              <a href="#">All Watches</a>
+            </li>
             <li class="content__list--items btn">
               <a href="">Discovering Rolex</a>
             </li>
@@ -66,5 +71,6 @@
         </div>
       </nav>
     </header>
+    <script type="module" src="/src/utils/utils-animations.js" defer></script>
   </body>
 </html>
