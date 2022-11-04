@@ -3,6 +3,7 @@
 
 /*variables*/
 @import "variables/colors.css";
+@import "variables/fonts.css";
 
 /*animations*/
 @import "animations/animations.css";
@@ -15,7 +16,9 @@
 @import "utils-styles/side-panel.css";
 
 /*page-sections*/
+@import "page-sections/header.css";
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
 @import "config/breakpoints/sidepanel-breakpoints.css";
+@import "config/breakpoints/header-breakpoints.css";
