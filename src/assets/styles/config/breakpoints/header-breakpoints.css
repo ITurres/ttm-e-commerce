@@ -1,0 +1,12 @@
+@media (min-width: 1000px) {
+  .header-content__title,
+  .header-content__subtitle {
+    line-height: 0.7;
+  }
+  .header-content__title {
+    font-size: 2.7rem;
+  }
+  .header-content__subtitle {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,35 @@
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header-content__video {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  height: 100vh; /*?change if needed - later*/
+}
+
+.header-content__title,
+.header-content__subtitle {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  line-height: 1.2;
+  color: var(--style-color-white);
+  font-family: var(--font-family-light);
+  padding: 0 1rem;
+  pointer-events: none;
+}
+
+.header-content__title {
+  font-size: 1.7rem;
+}
+
+.header-content__subtitle {
+  font-size: 0.8rem;
+}
