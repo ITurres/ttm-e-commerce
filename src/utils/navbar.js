@@ -1,3 +1,5 @@
+//?BELOW NAVBAR HOVER ANIMATIONS//
+//! why animate a hover? in order to change the logo file on hover//
 const $navbar = document.querySelector("[data-navbar]");
 
 const navbarHoverAnimation = (bgColor, textColor, src) => {
@@ -24,3 +26,24 @@ $navbar.addEventListener("mouseout", () => {
     "/src/assets/media/img/logo/ttm-logo-white.png"
   );
 });
+//?ABOVE NAVBAR HOVER ANIMATIONS//
+
+//?BELOW NAVBAR OPEN-CLOSE ANIMATION//
+
+const $openBtn = document.querySelector("[data-open-menu-btn]");
+
+$openBtn.addEventListener("click", () => {
+  hideNavbar();
+});
+
+const hideNavbar = () => {
+  $navbar.style.height = "0";
+  $navbar.style.top = "-100px";
+};
+
+export const showNavbar = () => {
+  $navbar.style.height = "5rem";
+  $navbar.style.top = "0";
+};
+
+//?ABOVE NAVBAR OPEN-CLOSE ANIMATION//
