@@ -1,0 +1,71 @@
+VIDEOS:
+
+HOME=PAGE: https://content.rolex.com/dam/new-watches-2022/new-watches/deepsea-challenge/homepage/hss/part-2/new-rolex-deepsea-homepage-cover-02.mp4
+
+
+WATCHES COLLECTION SECTION VIDEO: https://content.rolex.com/dam/watches/hubs/all-watches/videos/hub-collection-watches-cover.mp4
+
+SEA-DWELLER: https://content.rolex.com/dam/watches/family-pages/sea-dweller/video/cover/professional-watches-sea-dweller-cover-video.mp4
+
+AIR-KING: https://content.rolex.com/dam/watches/family-pages/air-king/video/cover/professional-watches-new-air-king-2022-video.mp4
+
+GMT-MASTER-II: https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/video/cover/professional-watches-gmt-master-ii-cover-video.mp4
+
+DAY-DATE: https://content.rolex.com/dam/watches/family-pages/day-date/2022/cover/classic-watches-day-date-2022-cover-video.mp4
+
+DAYTONA: https://content.rolex.com/dam/watches/family-pages/cosmograph-daytona/video/cover/professional-watches-cosmograph-daytona-cover-video.mp4
+
+SKY-DWELLER: https://content.rolex.com/dam/new-watches-2020/new-sky-dweller/videos/cover/new-sky-dweller-cover.mp4
+
+MILGAUSS: https://content.rolex.com/dam/watches/family-pages/milgauss/video/cover/professional-watches-milgauss-cover-video.mp4
+
+CELINE: https://content.rolex.com/dam/watches/family-pages/cellini/video/cover/classic-watches-cellini-moonphase-video.mp4
+
+
+ROLLER-IMG:
+
+SEA-DWELLER: https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=1080%202x
+
+AIR-KING: https://content.rolex.com/dam/new-watches-2022/homepage/roller-family/homepage-new-watches-2022-roller-watches-air-king-family-m126900-0001.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2022/homepage/roller-family/homepage-new-watches-2022-roller-watches-air-king-family-m126900-0001.jpg?imwidth=1080%202x
+
+GMT-MASTER-II: https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=1080%202x
+
+DAY-DATE: https://content.rolex.com/dam/new-watches-2022/homepage/roller-family/homepage-new-watches-2022-roller-watches-day-date-family-m228236-0012.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2022/homepage/roller-family/homepage-new-watches-2022-roller-watches-day-date-family-m228236-0012.jpg?imwidth=1080%202x
+
+DAYTONA: https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=1080%202x
+
+SKY-DWELLER: https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=1080%202x
+
+MILGAUSS: https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=1080%202x
+
+CELINE: https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=550,%20https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=1080%202x
+
+
+EACH-WATCH-PAGE:
+
+SEA-DWELLER: https://content.rolex.com/dam/new-watches-2022/family-pages/sea-dweller/family-page-sea-dweller-deepsea-beauty_m136660_0003.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2022/family-pages/sea-dweller/family-page-sea-dweller-deepsea-beauty_m136660_0003.jpg?imwidth=1668%202x
+
+AIR=KING: https://content.rolex.com/dam/new-watches-2022/family-pages/air-king/family-page-air-king-beauty_m126900-0001_004.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2022/family-pages/air-king/family-page-air-king-beauty_m126900-0001_004.jpg?imwidth=1668%202x
+
+GMT-MASTER-II: https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1668%202x
+
+DAY-DATE: https://content.rolex.com/dam/new-watches-2022/new-watches/day-date-40/new-watches-2022-day-date-40-banner-ambiance.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2022/new-watches/day-date-40/new-watches-2022-day-date-40-banner-ambiance.jpg?imwidth=1668%202x
+
+DAYTONA: https://content.rolex.com/dam/watches/family-pages/cosmograph-daytona/professional-watches-cosmograph-daytona-beauty_m116500ln-0001_1601ac_004.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/cosmograph-daytona/professional-watches-cosmograph-daytona-beauty_m116500ln-0001_1601ac_004.jpg?imwidth=1668%202x
+
+SKY-DWELLER: https://content.rolex.com/dam/new-watches-2020/new-sky-dweller/new-sky-dweller-oyster-case.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2020/new-sky-dweller/new-sky-dweller-oyster-case.jpg?imwidth=1668%202x
+
+MILGAUSS: https://content.rolex.com/dam/watches/family-pages/milgauss/family-page-milgauss-beauty_m116400GV-0002_bs_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/milgauss/family-page-milgauss-beauty_m116400GV-0002_bs_003.jpg?imwidth=1668%202x
+
+CELINE: https://content.rolex.com/dam/watches/family-pages/cellini/video/classic-watches-cellini-video-autoplay-fallback.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/cellini/video/classic-watches-cellini-video-autoplay-fallback.jpg?imwidth=1668%202x
+
+
+
+
+
+
+
+
+
+
+
