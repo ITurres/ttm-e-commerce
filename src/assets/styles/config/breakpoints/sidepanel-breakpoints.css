@@ -1,0 +1,10 @@
+@media (min-width: 600px) {
+  .sidepanel--show {
+    width: 70%;
+  }
+}
+@media (min-width: 1000px) {
+  .sidepanel--show {
+    width: 50%;
+  }
+}
