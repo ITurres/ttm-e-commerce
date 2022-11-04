@@ -27,8 +27,12 @@
   transition: all 0.2s ease-in-out;
 }
 
+.navbar__item--green {
+  color: var(--style-color-green);
+}
+
 .navbar__search.symbol {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
