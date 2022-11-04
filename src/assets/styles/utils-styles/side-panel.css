@@ -11,6 +11,10 @@
   padding-top: 0.5rem;
 }
 
+.sidepanel--show {
+  width: 90%;
+}
+
 .btn {
   cursor: pointer;
 }
