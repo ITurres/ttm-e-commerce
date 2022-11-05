@@ -1,30 +1,23 @@
-//?BELOW NAVBAR HOVER ANIMATIONS//
+//?BELOW NAVBAR HOVER / ANIMATIONS//
 //! why animate a hover? in order to change the logo file on hover//
 const $navbar = document.querySelector("[data-navbar]");
+const $navbarItems = document.querySelectorAll("[data-navbar-item]");
 
-const navbarHoverAnimation = (bgColor, textColor, src) => {
-  $navbar.style.backgroundColor = bgColor;
-  $navbar.classList.add("navbar-white");
-  $navbar.children[0].children[0].style.color = textColor; //*open-menu_color
-  $navbar.children[2].children[0].style.color = textColor; //*search-btn_color
+const navbarHoverAnimation = (src) => {
+  $navbar.classList.toggle("navbar--white"); //!do we need this?//
+  $navbarItems.forEach((element) => {
+    element.classList.toggle("navbar__item--green");
+  });
   $navbar.children[1].children[0].src = src;
-  $navbar.style.transition = "0.4s";
+  $navbar.style.transition = "0.5s";
 };
 
 $navbar.addEventListener("mouseover", () => {
-  navbarHoverAnimation(
-    "var(--style-color-white)",
-    "var(--style-color-green)",
-    "/src/assets/media/img/logo/ttm-logo-color.png"
-  );
+  navbarHoverAnimation("/src/assets/media/img/logo/ttm-logo-color.png");
 });
 
 $navbar.addEventListener("mouseout", () => {
-  navbarHoverAnimation(
-    "transparent",
-    "var(--style-color-white)",
-    "/src/assets/media/img/logo/ttm-logo-white.png"
-  );
+  navbarHoverAnimation("/src/assets/media/img/logo/ttm-logo-white.png");
 });
 //?ABOVE NAVBAR HOVER ANIMATIONS//
 
