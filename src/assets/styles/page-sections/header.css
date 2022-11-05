@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+.low-brightness {
+  filter: brightness(25%);
+}
+
 .header-content__video {
   position: absolute;
   object-fit: cover;
