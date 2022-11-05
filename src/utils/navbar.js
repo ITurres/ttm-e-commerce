@@ -2,6 +2,7 @@
 //! why animate a hover? in order to change the logo file on hover//
 const $navbar = document.querySelector("[data-navbar]");
 const $navbarItems = document.querySelectorAll("[data-navbar-item]");
+const $headerContent = document.querySelector("[data-header-content]");
 
 const navbarHoverAnimation = (src) => {
   $navbar.classList.toggle("navbar--white"); //!do we need this?//
@@ -27,7 +28,12 @@ const $openBtn = document.querySelector("[data-open-menu-btn]");
 
 $openBtn.addEventListener("click", () => {
   hideNavbar();
+  darkenSection();
 });
+
+export const darkenSection = () => {
+  $headerContent.classList.toggle("low-brightness");
+};
 
 const hideNavbar = () => {
   $navbar.style.height = "0";
