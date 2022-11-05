@@ -1,4 +1,5 @@
 import { showNavbar } from "./navbar.js";
+import { darkenSection } from "./navbar.js";
 const $sidePanel = document.querySelector("[data-sidepanel]");
 const $sidePanel_openBtn = document.querySelector("[data-open-menu-btn]");
 const $sidePanel_closebtn = document.querySelector(
@@ -14,6 +15,7 @@ $sidePanel_openBtn.addEventListener("click", () => {
 $sidePanel_closebtn.addEventListener("click", () => {
   setTimeout(() => {
     showSidepanel();
+    darkenSection();
   }, 250);
   setTimeout(() => {
     showNavbar();
