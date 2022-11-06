@@ -114,6 +114,27 @@
         </p>
       </div>
     </section>
+    <section 2 class="watches">
+      <div class="watches__roller-container">
+        <div class="roller__btn--holder">
+          <span
+            aria-label="previous"
+            class="roller__btn previous material-symbols-outlined btn"
+            data-roller-btn-previous
+            >chevron_left</span
+          >
+          <span
+            aria-label="next"
+            class="roller__btn next material-symbols-outlined btn"
+            data-roller-btn-next
+            >chevron_right</span
+          >
+        </div>
+        <div class="roller" data-roller></div>
+        <div role="tablist" class="roller__dots"></div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script type="module" src="/src/utils/utils-animations.js" defer></script>
   </body>
 </html>
