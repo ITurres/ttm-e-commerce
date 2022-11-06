@@ -1,0 +1,12 @@
+/* BELOW - animation on all elements with class = arrow-holder/arrow*/
+@keyframes arrowAnimation {
+  0% {
+    top: 100px;
+    opacity: 1;
+  }
+  100% {
+    top: 200px;
+    opacity: 0;
+  }
+}
+/* ABOVE - animation on all elements with class = arrow-holder/arrow*/
