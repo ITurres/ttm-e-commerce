@@ -31,9 +31,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.4;
-  background-color: rgb(31, 27, 27);
+  background-color: #fff;
 }
 
 .container {
