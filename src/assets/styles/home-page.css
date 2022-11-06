@@ -17,8 +17,11 @@
 
 /*page-sections*/
 @import "page-sections/header.css";
+@import "page-sections/section-1.css";
+@import "page-sections/section-2.css";
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
 @import "config/breakpoints/sidepanel-breakpoints.css";
 @import "config/breakpoints/header-breakpoints.css";
+@import "config/breakpoints/section-2-breakpoints.css";
