@@ -10,7 +10,11 @@
     font-size: 1.3rem;
   }
 }
-
+@media (max-width: 600px) {
+  .navbar__logo img {
+    max-width: 110px;
+  }
+}
 @media (max-height: 500px) {
   .arrow {
     display: none;
