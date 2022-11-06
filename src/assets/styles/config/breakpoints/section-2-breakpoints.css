@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+  .watches__roller-container {
+    margin-left: 10%;
+  }
+  .roller__btn--holder {
+    display: flex;
+  }
+}
