@@ -38,10 +38,6 @@
   font-size: 0.8rem;
 }
 
-.arrow-holder {
-  background-color: blue;
-}
-
 .arrow {
   position: relative;
   color: var(--style-color-white);
