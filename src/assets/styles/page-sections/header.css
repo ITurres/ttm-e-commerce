@@ -6,9 +6,11 @@
   height: 100vh;
 }
 
+/*!--BELOW---styles for when [data-shadow-content] triggers*/
 .low-brightness {
   filter: brightness(25%);
 }
+/*!--ABOVE---styles for when [data-shadow-content] triggers*/
 
 .header-content__video {
   position: absolute;

@@ -1,3 +1,9 @@
+/*!--BELOW---styles for when [data-shadow-content] triggers*/
+.low-brightness {
+  filter: brightness(25%);
+}
+/*!--ABOVE---styles for when [data-shadow-content] triggers*/
+
 section.watches {
   background-color: var(--style-color-white);
 }

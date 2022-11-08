@@ -1,3 +1,9 @@
+/*!--BELOW---styles for when [data-shadow-content] triggers*/
+.low-brightness {
+  filter: brightness(25%);
+}
+/*!--ABOVE---styles for when [data-shadow-content] triggers*/
+
 /*? BELOW---resets properties setted on list--items on sidepanel styles*/
 .footer.content__list--items {
   margin: 0;
