@@ -1,7 +1,9 @@
 import { showNavbar } from "./navbar.js";
 import { darkenSection } from "./navbar.js";
-const $sidePanel = document.querySelector("[data-sidepanel]");
+
+export const $sidePanel = document.querySelector("[data-sidepanel]");
 const $sidePanel_openBtn = document.querySelector("[data-open-menu-btn]");
+
 export const $sidePanel_closebtn = document.querySelector(
   "[data-close-sidepanel-btn]"
 );
