@@ -12,10 +12,6 @@
   width: 100%;
 }
 
-.navbar--white {
-  background-color: var(--style-color-white);
-}
-
 .navbar__items {
   align-self: flex-end;
 }
@@ -25,10 +21,6 @@
   color: var(--style-color-white);
   font-family: Helvetica, sans-serif;
   transition: all 0.2s ease-in-out;
-}
-
-.navbar__item--green {
-  color: var(--style-color-green);
 }
 
 .navbar__search.symbol {
