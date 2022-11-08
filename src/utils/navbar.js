@@ -3,7 +3,7 @@ import { $sidePanel_closebtn } from "./sidepanel.js";
 
 const $navbar = document.querySelector("[data-navbar]");
 const $navbarItems = document.querySelectorAll("[data-navbar-item]");
-const $headerContent = document.querySelector("[data-header-content]");
+const $elementsToShadow = document.querySelectorAll("[data-shadow-content]");
 const whiteLogoSrc = "/src/assets/media/img/logo/ttm-logo-white.png";
 const colorLogoSrc = "/src/assets/media/img/logo/ttm-logo-color.png";
 const bgColor1 = "transparent";
@@ -24,12 +24,12 @@ export const navbarHoverAnimation = (src, bgColor, textColor) => {
 
 // const hoverWhenMouse = (possible) => {
 //   if (possible) {
-    $navbar.addEventListener("mouseover", () => {
-      navbarHoverAnimation(colorLogoSrc, bgColor2, fontColor2);
-    });
-    $navbar.addEventListener("mouseout", () => {
-      navbarHoverAnimation(whiteLogoSrc, bgColor1, fontColor1);
-    });
+$navbar.addEventListener("mouseover", () => {
+  navbarHoverAnimation(colorLogoSrc, bgColor2, fontColor2);
+});
+$navbar.addEventListener("mouseout", () => {
+  navbarHoverAnimation(whiteLogoSrc, bgColor1, fontColor1);
+});
 //   }
 // };
 
@@ -70,7 +70,9 @@ $sidePanel_closebtn.addEventListener("click", () => {
 });
 
 export const darkenSection = () => {
-  $headerContent.classList.toggle("low-brightness");
+  $elementsToShadow.forEach((element) =>
+    element.classList.toggle("low-brightness")
+  );
 };
 
 const hideNavbar = () => {
