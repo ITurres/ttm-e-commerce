@@ -1,5 +1,6 @@
 //! why animate a hover? in order to change the logo file on hover//
 import { $sidePanel_closebtn } from "./sidepanel.js";
+import { $sidePanel } from "./sidepanel.js";
 
 const $navbar = document.querySelector("[data-navbar]");
 const $navbarItems = document.querySelectorAll("[data-navbar-item]");
@@ -45,6 +46,12 @@ window.addEventListener("scroll", () => {
   } else {
     $navbar.style.top = "0";
     navbarHoverAnimation(colorLogoSrc, bgColor2, fontColor2);
+    if ($sidePanel.classList.contains("sidepanel--show")) {
+      //! without this conditional, navbar opens on up-scroll when sidepanel is open//
+      console.log("sidepanel is open");
+      //?to hide it use property below//
+      $navbar.style.top = "-100px";
+    }
   }
   lastScrollTop = scrollTop;
   if (scrollTop === 0) {
