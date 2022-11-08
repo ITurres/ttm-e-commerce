@@ -1,0 +1,14 @@
+@media (min-width: 600px) {
+  .footer-links__content--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .footer.content__list--items:first-of-type {
+    padding-top: 0.8rem;
+  }
+  .footer.content__list--items:last-of-type {
+    padding-bottom: 0.8rem;
+  }
+}
