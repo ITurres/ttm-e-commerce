@@ -3,7 +3,7 @@ import { watches_data } from "./watches-data.js";
 const $watchesDataHolder = document.querySelector("[data-roller]");
 
 const rollerItemsMarkupTemplate = (href, srcset, src, alt, title, about) => {
-  return `<a href="${href}" class="roller__item">
+  return `<a href="${href}" target="_blank" class="roller__item">
     <source srcset="${srcset}" type="image/jpg" class="roller__img" />
     <img
       src="${src}"
