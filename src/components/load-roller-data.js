@@ -2,8 +2,16 @@ import { watches_data } from "./watches-data.js";
 
 const $watchesDataHolder = document.querySelector("[data-roller]");
 
-const rollerItemsMarkupTemplate = (href, srcset, src, alt, title, about) => {
-  return `<a href="${href}" target="_blank" class="roller__item">
+const rollerItemsMarkupTemplate = (
+  watchId,
+  href,
+  srcset,
+  src,
+  alt,
+  title,
+  about
+) => {
+  return `<a href="${href}" target="_blank" id="${watchId}" class="roller__item" data-watch-item>
     <source srcset="${srcset}" type="image/jpg" class="roller__img" />
     <img
       src="${src}"
@@ -17,13 +25,14 @@ const rollerItemsMarkupTemplate = (href, srcset, src, alt, title, about) => {
   </a>`;
 };
 
-Object.values(watches_data).forEach((watchId) => {
+Object.values(watches_data).forEach((element) => {
   $watchesDataHolder.innerHTML += rollerItemsMarkupTemplate(
-    watchId.page_href,
-    watchId.roller_srcset,
-    watchId.roller_src,
-    watchId.img_alt,
-    watchId.roller_title,
-    watchId.roller_about
+    element.id,
+    element.page_href,
+    element.roller_srcset,
+    element.roller_src,
+    element.img_alt,
+    element.roller_title,
+    element.roller_about
   );
 });
