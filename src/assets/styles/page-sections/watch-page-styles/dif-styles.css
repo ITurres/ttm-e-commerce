@@ -1,0 +1,24 @@
+/*BELOW---Air-King--Styles*/
+section.about.air-king-style {
+  background-color: var(--style-color-lightGray);
+}
+
+.about__title.air-king-style {
+  background: linear-gradient(
+    to right,
+    var(--style-color-offBlack),
+    var(--style-color-green),
+    var(--style-color-green),
+    var(--style-color-lightGreen),
+    var(--style-color-lightGreen)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.price.air-king-style {
+  color: var(--style-color-darkBrown);
+  border: 1px solid var(--style-color-lightGreen);
+}
+/*ABOVE---Air-King--Styles*/

@@ -1,0 +1,15 @@
+.about-watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.price {
+  font-family: var(--font-family-bold);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  text-align: center;
+}
