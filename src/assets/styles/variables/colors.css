@@ -8,4 +8,10 @@
   --style-color-gray: #4c4c4c;
   --style-color-blue: #0f6296;
   --style-color-darkerBlue: #072e47;
+  /* watch-pages-color-variables */
+  --style-color-darkBrown-transparent: #2120207d;
+  --style-color-green-transparent: #30984f7d;
+  --style-color-lightGreen: #2da651;
+  --style-color-lightGray: #b8b9bd;
+  --style-color-ultraLightGray: #c0c0c0;
 }

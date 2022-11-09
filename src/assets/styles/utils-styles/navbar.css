@@ -6,7 +6,7 @@
   background-color: transparent;
   list-style: none;
   position: fixed;
-  z-index: 5;
+  z-index: 100;
   top: 0;
   height: 5rem;
   width: 100%;
