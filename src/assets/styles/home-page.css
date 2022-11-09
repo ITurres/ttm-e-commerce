@@ -16,10 +16,10 @@
 @import "utils-styles/side-panel.css";
 
 /*page-sections*/
-@import "page-sections/header.css";
-@import "page-sections/section-1.css";
-@import "page-sections/section-2.css";
-@import "page-sections/footer.css";
+@import "page-sections/home-page-styles/header.css";
+@import "page-sections/home-page-styles/section-1.css";
+@import "page-sections/home-page-styles/section-2.css";
+@import "page-sections/home-page-styles/footer.css";
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
