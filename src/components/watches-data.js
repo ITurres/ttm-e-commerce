@@ -210,7 +210,7 @@ export const watches_data = {
       "This collection combines the best of savoir faire Rolex and its demands for perfection with a focus that magnifies the watch heritage in its most timeless form. The Cellini model lines are sober and refined, the noble materials, the luxurious finishes and every detail has been designed according to the codes of watchmaking art.",
     watch_price: "32500",
     img_srcset:
-      "https://content.rolex.com/dam/watches/family-pages/cellini/video/classic-watches-cellini-video-autoplay-fallback.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/cellini/video/classic-watches-cellini-video-autoplay-fallback.jpg?imwidth=1668%202x",
+      "https://content.rolex.com/dam/watches/family-pages/cellini/family-page-cellini-beauty_m50535-0002_1701ac_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/cellini/family-page-cellini-beauty_m50535-0002_1701ac_003.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-cellini.webp",
     style_class: "cellini-style",
     doc_title: "Rolex Cellini - The classic watch",
