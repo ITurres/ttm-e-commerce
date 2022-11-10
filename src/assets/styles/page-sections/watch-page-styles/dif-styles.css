@@ -1,3 +1,34 @@
+/*BELOW---Sea-Dweller--Styles*/
+section.about.sea-dweller-style {
+  background-color: var(--style-sea-dweller-blue);
+}
+
+.about__title.sea-dweller-style {
+  background: linear-gradient(
+    to bottom,
+    /* var(--style-color-blue),
+    var(--style-color-blue),
+    var(--style-sea-dweller-darkerBlue),
+    var(--style-sea-dweller-darkerBlue),
+    var(--style-sea-dweller-darkerBlue), */
+      var(--style-sea-dweller-limegreen),
+    var(--style-sea-dweller-limegreen)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.sea-dweller-style {
+  color: var(--style-color-white);
+}
+
+.price.sea-dweller-style {
+  color: var(--style-sea-dweller-limegreen);
+  border: 2px solid var(--style-sea-dweller-limegreen);
+}
+/*ABOVE---Sea-Dweller--Styles*/
+
 /*BELOW---Air-King--Styles*/
 section.about.air-king-style {
   background-color: var(--style-color-lightGray);
@@ -19,6 +50,177 @@ section.about.air-king-style {
 
 .price.air-king-style {
   color: var(--style-color-darkBrown);
-  border: 1px solid var(--style-color-lightGreen);
+  border: 2px solid var(--style-color-lightGreen);
 }
 /*ABOVE---Air-King--Styles*/
+
+/*BELOW---GMT-Master-II--Styles*/
+section.about.gmt-master-ii-style {
+  background-color: var(--style-gmt-master-gray);
+}
+
+.about__title.gmt-master-ii-style {
+  background: linear-gradient(
+    to right,
+    var(--style-gmt-master-red),
+    var(--style-gmt-master-red),
+    var(--style-gmt-master-red),
+    var(--style-color-blue),
+    var(--style-color-blue),
+    var(--style-color-blue)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.gmt-master-ii-style {
+  color: var(--style-color-darkerBlue);
+}
+
+.price.gmt-master-ii-style {
+  color: var(--style-color-blue);
+  border: 2px solid var(--style-gmt-master-red);
+}
+/*ABOVE---GMT-Master-II--Styles*/
+
+/*BELOW---Day-Date--Styles*/
+section.about.day-date-style {
+  background-color: var(--style-day-date-darkBlue);
+}
+
+.about__title.day-date-style {
+  background: linear-gradient(
+    to right,
+    var(--style-day-date-lightblue),
+    var(--style-day-date-lightblue)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.day-date-style {
+  color: var(--style-color-white);
+}
+
+.price.day-date-style {
+  color: var(--style-color-white);
+  border: 2px solid var(--style-day-date-lightblue);
+}
+/*ABOVE---Day-Date--Styles*/
+
+/*BELOW---daytona--Styles*/
+section.about.daytona-style {
+  background-color: var(--style-daytona-black);
+}
+
+.about__title.daytona-style {
+  background: linear-gradient(
+    to bottom,
+    var(--style-color-white),
+    var(--style-color-white)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.daytona-style {
+  color: var(--style-color-white);
+}
+
+.price.daytona-style {
+  color: var(--style-color-white);
+  border: 2px solid var(--style-color-white);
+}
+/*ABOVE---daytona--Styles*/
+
+/*BELOW---sky-dweller--Styles*/
+section.about.sky-dweller-style {
+  background-color: var(--stlye-sky-dweller-black);
+}
+
+.about__title.sky-dweller-style {
+  background: linear-gradient(
+    to left,
+    var(--style-sky-dweller-gold-1),
+    var(--style-sky-dweller-gold-2),
+    var(--style-sky-dweller-gold-3),
+    var(--style-sky-dweller-gold-2),
+    var(--style-sky-dweller-gold-3),
+    var(--style-sky-dweller-brown)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.sky-dweller-style {
+  color: var(--style-sky-dweller-gold-1);
+}
+
+.price.sky-dweller-style {
+  color: var(--style-sky-dweller-gold-2);
+  border: 2px solid var(--style-sky-dweller-gold-3);
+}
+/*ABOVE---sky-dweller--Styles*/
+
+/*BELOW---Milgauss--Styles*/
+section.about.milgauss-style {
+  background-color: var(--style-milgauss-gray);
+}
+
+.about__title.milgauss-style {
+  background: linear-gradient(
+    to bottom,
+    var(--style-milgauss-green),
+    var(--style-milgauss-green),
+    var(--style-milgauss-blue),
+    var(--style-milgauss-orange),
+    var(--style-milgauss-blue),
+    var(--style-milgauss-blue)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.milgauss-style {
+  color: var(--style-color-offBlack);
+}
+
+.price.milgauss-style {
+  color: var(--style-milgauss-blue);
+  border: 2px solid var(--style-milgauss-orange);
+}
+/*ABOVE---Milgauss--Styles*/
+
+/*BELOW---Cellini--Styles*/
+section.about.cellini-style {
+  background-color: var(--style-cellini-gray);
+}
+
+.about__title.cellini-style {
+  background: linear-gradient(
+    to right,
+    var(--style-cellini-gold-2),
+    var(--style-cellini-brown),
+    var(--style-cellini-gold-2),
+    var(--style-cellini-gold-3),
+    var(--style-cellini-brown)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text.cellini-style {
+  color: var(--style-cellini-brown);
+}
+
+.price.cellini-style {
+  color: var(--style-cellini-brown);
+  border: 2px solid var(--style-cellini-brown);
+}
+/*ABOVE---Cellini--Styles*/
