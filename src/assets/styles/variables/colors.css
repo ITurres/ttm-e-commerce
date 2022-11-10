@@ -14,4 +14,27 @@
   --style-color-lightGreen: #2da651;
   --style-color-lightGray: #b8b9bd;
   --style-color-ultraLightGray: #c0c0c0;
+  --style-sea-dweller-blue: #152a46;
+  --style-sea-dweller-darkerBlue: #001938;
+  --style-sea-dweller-limegreen: #c3f030;
+  --style-gmt-master-gray: #e2e4e5;
+  --style-gmt-master-red: #930000;
+  --style-day-date-darkBlue: #061626;
+  --style-day-date-lightblue: #8ab7ce;
+  --style-daytona-black: #000003;
+  --stlye-sky-dweller-black: #010100;
+  --style-sky-dweller-gold-1: #f9ead6;
+  --style-sky-dweller-gold-2: #cabb9b;
+  --style-sky-dweller-gold-3: #a27e48;
+  --style-sky-dweller-brown: #684925;
+  --style-milgauss-blue: #00608e;
+  --style-milgauss-green: #33b67c;
+  --style-milgauss-orange: #f1833b;
+  --style-milgauss-gray: #e5e5e8;
+  --style-cellini-blue: #332584;
+  --style-cellini-gold-1: #fdefe9;
+  --style-cellini-gold-2: #e5c1b1;
+  --style-cellini-gold-3: #f6bda0;
+  --style-cellini-brown: #894443;
+  --style-cellini-gray: #ebebeb;
 }
