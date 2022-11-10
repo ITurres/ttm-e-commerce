@@ -35,6 +35,10 @@
   font-size: 1.2rem;
 }
 
+.navbar__logo {
+  margin-left: 0.5rem;
+}
+
 .navbar__logo img {
   width: 100%;
   max-width: 150px;
