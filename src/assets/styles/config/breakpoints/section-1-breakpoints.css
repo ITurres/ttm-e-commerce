@@ -1,4 +1,8 @@
 @media (min-width: 1000px) {
+  .about-watch {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
   .watch-section-1__title {
     font-size: 2.2rem;
   }

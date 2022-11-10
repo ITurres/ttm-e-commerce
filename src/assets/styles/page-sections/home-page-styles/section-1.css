@@ -9,7 +9,7 @@
 }
 
 .about__title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: var(--font-family-regular);
   letter-spacing: 0.2rem;
   margin-top: 2rem;
@@ -35,4 +35,9 @@
   padding: 0 1rem 1rem 3%;
   line-height: 1.8;
   margin-bottom: 3rem;
+}
+
+.about__sources--holder {
+  background-color: var(--style-color-darkBrown);
+  border-bottom: 4px solid var(--style-color-darkBrown);
 }
