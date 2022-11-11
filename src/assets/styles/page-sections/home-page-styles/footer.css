@@ -68,10 +68,10 @@
 }
 
 .go-top-button__arrow {
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
   border-top: 1px solid var(--style-color-gray);
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   width: 100%;
   transition: color 0.2s ease-in-out;
 }

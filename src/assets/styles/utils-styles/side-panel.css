@@ -32,9 +32,10 @@
 }
 
 .sidepanel__close-menu_btn {
+  font-size: 1.5rem;
   color: var(--style-color-white);
   transition: all 0.2s ease-in-out;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .sidepanel__close-menu_btn:hover {

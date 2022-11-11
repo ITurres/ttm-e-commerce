@@ -23,20 +23,13 @@
   transition: all 0.2s ease-in-out;
 }
 
-.navbar__search.symbol {
-  font-size: 1.2rem;
-}
-
-.navbar__open-menu_btn.symbol {
-  font-size: 1.2rem;
-}
-
-.navbar__open-menu_btn.menu-txt {
-  font-size: 1.2rem;
+.navbar__open-menu_btn,
+.navbar__search-btn {
+  font-size: 0.6rem;
 }
 
 .navbar__logo {
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
 }
 
 .navbar__logo img {

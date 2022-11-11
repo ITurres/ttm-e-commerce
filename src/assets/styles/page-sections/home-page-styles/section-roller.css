@@ -24,11 +24,11 @@ section.watches {
 }
 
 .roller__btn {
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--style-color-offBlack);
   border-radius: 5rem;
   border: 2px solid var(--style-color-green);
-  padding: 0.4rem;
+  padding: 0.8rem 0.9rem;
   transition: all 0.2s ease-in-out;
 }
 
