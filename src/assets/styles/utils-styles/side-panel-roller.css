@@ -27,3 +27,7 @@
   transform-origin: center;
   transition: all 0.5s ease;
 }
+
+.sidepanel-roller__dots {
+  margin: 0.5rem 0 1rem 0;
+}
