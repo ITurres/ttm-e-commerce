@@ -5,9 +5,12 @@ export const headerMarkupTemplate = (src, srcset, title, subtitle) => {
   playsinline
   loop
   width="100%"
-  src="${src}"
   class="header-content__video"
 >
+  <source
+    src="${src}"
+    type="video/mp4/webm"
+  />
   <source
     src="${srcset}"
     type="video/mp4/webm"
