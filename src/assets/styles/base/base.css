@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: "RolexFont-Bold";
-  src: url(/src/assets/fonts/RolexFont-Bold-WebS.woff2);
+  src: url(src/assets/fonts/RolexFont-Bold-WebS.woff2);
 }
 
 @font-face {
   font-family: "RolexFont-Regular";
-  src: url(/src/assets/fonts/RolexFont-Regular-WebS.woff2);
+  src: url(src/assets/fonts/RolexFont-Regular-WebS.woff2);
 }
 
 @font-face {
   font-family: "RolexFont-Light";
-  src: url(/src/assets/fonts/RolexFont-Light-WebS.woff2);
+  src: url(src/assets/fonts/RolexFont-Light-WebS.woff2);
 }
 
 *,
