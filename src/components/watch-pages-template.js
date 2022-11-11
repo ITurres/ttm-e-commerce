@@ -9,11 +9,9 @@ export const headerMarkupTemplate = (src, srcset, title, subtitle) => {
 >
   <source
     src="${src}"
-    type="video/mp4/webm"
   />
   <source
     src="${srcset}"
-    type="video/mp4/webm"
   />
 </video>
 <h1 class="header-content__title">${title}</h1>
