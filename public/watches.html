@@ -18,6 +18,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.css"
+    />
     <link rel="stylesheet" href="/src/assets/styles/watch-page.css" />
     <title></title>
   </head>
@@ -38,6 +42,26 @@
         <span>
           <!-- empty so pushes sidepanel__logo to center -->
         </span>
+      </div>
+      <div class="sidepanel-watches__roller-container">
+        <div class="sidepanel-roller__btn--holder">
+          <span
+            aria-label="previous"
+            class="roller__btn previous material-symbols-outlined btn"
+            data-sidepanel-roller-btn-previous
+            >chevron_left</span
+          >
+          <span
+            aria-label="next"
+            class="roller__btn next material-symbols-outlined btn"
+            data-sidepanel-roller-btn-next
+            >chevron_right</span
+          >
+        </div>
+        <div class="roller roller-on-sidepanel" data-roller-sidepanel>
+          <!-- watches data will be auto injected within div/glider-track -->
+        </div>
+        <div role="tablist" class="roller__dots"></div>
       </div>
       <div class="sidepanel__content">
         <ul class="content__list">
@@ -208,6 +232,7 @@
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script
       type="module"
       src="/src/components/watch-pages-markup-components.js"

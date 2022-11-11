@@ -43,6 +43,26 @@
           <!-- empty so pushes sidepanel__logo to center -->
         </span>
       </div>
+      <div class="sidepanel-watches__roller-container">
+        <div class="sidepanel-roller__btn--holder">
+          <span
+            aria-label="previous"
+            class="roller__btn previous material-symbols-outlined btn"
+            data-sidepanel-roller-btn-previous
+            >chevron_left</span
+          >
+          <span
+            aria-label="next"
+            class="roller__btn next material-symbols-outlined btn"
+            data-sidepanel-roller-btn-next
+            >chevron_right</span
+          >
+        </div>
+        <div class="roller roller-on-sidepanel" data-roller-sidepanel>
+          <!-- watches data will be auto injected within div/glider-track -->
+        </div>
+        <div role="tablist" class="roller__dots"></div>
+      </div>
       <div class="sidepanel__content">
         <ul class="content__list">
           <li class="content__list--items btn">
