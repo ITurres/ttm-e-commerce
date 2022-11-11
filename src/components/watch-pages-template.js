@@ -16,7 +16,7 @@ export const headerMarkupTemplate = (src, srcset, title, subtitle) => {
 <h1 class="header-content__title">${title}</h1>
 <p class="header-content__subtitle">${subtitle}</p>
 <div class="arrow-holder">
-  <span class="arrow material-symbols-outlined">expand_more</span>
+  <i class="arrow fa-solid fa-chevron-down"></i>
 </div>
 </div>`;
 };

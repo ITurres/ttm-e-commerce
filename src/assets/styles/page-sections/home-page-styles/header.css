@@ -44,6 +44,6 @@
 .arrow {
   position: relative;
   color: var(--style-color-white);
-  font-size: 2rem;
+  font-size: 1.5rem;
   animation: arrowAnimation 1.3s infinite;
 }
