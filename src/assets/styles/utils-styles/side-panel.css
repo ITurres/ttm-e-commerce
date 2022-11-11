@@ -9,6 +9,18 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 0.5rem;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sidepanel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidepanel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .sidepanel--show {
@@ -46,7 +58,7 @@
 }
 
 .sidepanel__content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .content__list {
