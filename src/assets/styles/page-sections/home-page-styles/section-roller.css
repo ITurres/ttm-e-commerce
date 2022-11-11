@@ -13,10 +13,13 @@ section.watches {
 }
 
 .roller {
-  overflow: hidden;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 0.5rem;
+  /* cursor: grabbing; */
 }
 
-.roller__btn--holder {
+/* .roller__btn--holder {
   display: none;
   justify-content: space-between;
   margin-bottom: 0.5rem;
@@ -35,11 +38,13 @@ section.watches {
 .roller__btn:hover {
   color: var(--style-color-white);
   background-color: var(--style-color-green);
-}
+} */
 
 .roller__item {
+  display: inline-block;
   margin: 0 0.1rem;
   text-decoration: none;
+  width: fit-content;
   overflow: hidden;
   border-top-left-radius: 1.3rem;
   border-top-right-radius: 1.3rem;
@@ -49,6 +54,7 @@ section.watches {
   border-radius: 1.3rem;
   transform-origin: center;
   transition: all 0.5s ease;
+  height: 60vh;
 }
 
 .roller__item:hover .roller__img {
