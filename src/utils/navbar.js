@@ -57,6 +57,7 @@ window.addEventListener("scroll", () => {
   if (scrollTop === 0) {
     //*so when scroll reaches top of page, logo turns back to white and else (see variables)/
     navbarHoverAnimation(whiteLogoSrc, bgColor1, fontColor1);
+    showNavbar();
     // hoverWhenMouse(true);
   }
 });
