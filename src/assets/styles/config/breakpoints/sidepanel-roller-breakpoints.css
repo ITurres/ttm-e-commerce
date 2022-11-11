@@ -1,0 +1,8 @@
+@media (min-width: 1000px) {
+  .sidepanel-watches__roller-container {
+    margin-left: 4rem;
+  }
+  .sidepanel__content {
+    padding: 0 4rem;
+  }
+}

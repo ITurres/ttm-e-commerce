@@ -1,0 +1,29 @@
+.sidepanel-watches__roller-container {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+
+.sidepanel-roller__btn--holder {
+  display: none;
+}
+
+.roller__item.sidepanel-roller {
+  overflow: hidden;
+  text-decoration: none;
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+}
+
+.item__title.sidepanel-roller,
+.item__about.sidepanel-roller {
+  background-color: var(--style-color-darkBrown);
+  color: var(--style-color-white);
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.roller__img.sidepanel-roller {
+  border-radius: unset;
+  transform-origin: center;
+  transition: all 0.5s ease;
+}
