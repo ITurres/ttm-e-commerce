@@ -25,6 +25,7 @@ export const watches_data = {
     img_src:
       "/src/assets/media/img/watch-pages-img/page-sea-dweller-deepsea-beauty.jpg",
     style_class: "sea-dweller-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Sea-Dweller - The watch that has conquered the depths",
   },
   air_king: {
@@ -52,6 +53,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/new-watches-2022/family-pages/air-king/family-page-air-king-beauty_m126900-0001_004.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2022/family-pages/air-king/family-page-air-king-beauty_m126900-0001_004.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-air-king-beauty.webp",
     style_class: "air-king-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Air-King - A tribute to aviation",
   },
   gmt_master2: {
@@ -79,6 +81,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-gmt-master-ii.jpg",
     style_class: "gmt-master-ii-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex GMT-Master II - The cosmopolitan watch",
   },
   day_date: {
@@ -105,6 +108,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/new-watches-2022/new-watches/day-date-40/new-watches-2022-day-date-40-banner-ambiance.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2022/new-watches/day-date-40/new-watches-2022-day-date-40-banner-ambiance.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-day-date.jpg",
     style_class: "day-date-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Day-Date - The materialization of an ideal",
   },
   daytona: {
@@ -133,6 +137,7 @@ export const watches_data = {
     img_src:
       "/src/assets/media/img/watch-pages-img/page-cosmograph-daytona.webp",
     style_class: "daytona-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Cosmograph Daytona - Born for competition",
   },
   sky_dweller: {
@@ -159,6 +164,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/new-watches-2020/new-sky-dweller/new-sky-dweller-oyster-case.jpg?imwidth=1350,%20https://content.rolex.com/dam/new-watches-2020/new-sky-dweller/new-sky-dweller-oyster-case.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-new-sky-dweller.jpg",
     style_class: "sky-dweller-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Sky-Dweller - The time anytime, anywhere",
   },
   milgauss: {
@@ -186,6 +192,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/watches/family-pages/milgauss/family-page-milgauss-beauty_m116400GV-0002_bs_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/milgauss/family-page-milgauss-beauty_m116400GV-0002_bs_003.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-milgauss.jpg",
     style_class: "milgauss-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Milgauss - Homage to science",
   },
   cellini: {
@@ -213,6 +220,7 @@ export const watches_data = {
       "https://content.rolex.com/dam/watches/family-pages/cellini/family-page-cellini-beauty_m50535-0002_1701ac_003.jpg?imwidth=1350,%20https://content.rolex.com/dam/watches/family-pages/cellini/family-page-cellini-beauty_m50535-0002_1701ac_003.jpg?imwidth=1668%202x",
     img_src: "/src/assets/media/img/watch-pages-img/page-cellini.webp",
     style_class: "cellini-style",
+    sidepanel_class: "sidepanel-roller",
     doc_title: "Rolex Cellini - The classic watch",
   },
 };
