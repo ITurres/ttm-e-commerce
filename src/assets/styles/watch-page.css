@@ -14,17 +14,20 @@
 /*utils-styles*/
 @import "utils-styles/navbar.css";
 @import "utils-styles/side-panel.css";
+@import "utils-styles/side-panel-roller.css";
 
 /*page-sections*/
 @import "page-sections/home-page-styles/header.css";
 @import "page-sections/home-page-styles/section-1.css";
 @import "page-sections/watch-page-styles/watches-section-1.css";
+@import "page-sections/home-page-styles/section-2.css";
 @import "page-sections/watch-page-styles/dif-styles.css";
 @import "page-sections/home-page-styles/footer.css";
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
 @import "config/breakpoints/sidepanel-breakpoints.css";
+@import "config/breakpoints/sidepanel-roller-breakpoints.css";
 @import "config/breakpoints/header-breakpoints.css";
 @import "config/breakpoints/section-1-breakpoints.css";
 @import "config/breakpoints/footer-breakpoints.css";
