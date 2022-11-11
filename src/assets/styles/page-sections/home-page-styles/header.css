@@ -17,7 +17,7 @@
   object-fit: cover;
   top: 0;
   height: 100vh; /*?change if needed - later*/
-  background: white;
+  background: white; /*? setting a bg color to a -video- element seems to fix the "not loading first frame" issue... on iOS devices > iOS-15/*/
 }
 
 .header-content__title,
