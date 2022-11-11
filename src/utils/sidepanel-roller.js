@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     draggable: true,
     dragVelocity: 100,
     duration: 0,
-    dots: ".roller__dots",
+    dots: ".sidepanel-roller__dots",
     arrows: {
       prev: "[data-sidepanel-roller-btn-previous]",
       next: "[data-sidepanel-roller-btn-next]",
