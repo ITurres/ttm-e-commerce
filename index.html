@@ -16,10 +16,6 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.css"
     />
     <link rel="stylesheet" href="src/assets/styles/home-page.css" />
@@ -28,12 +24,11 @@
   <body id="top-page">
     <nav aria-label="hidden sidepanel" class="sidepanel" data-sidepanel>
       <div class="sidepanel__header">
-        <span
-          class="sidepanel__close-menu_btn material-symbols-outlined btn"
+        <i
+          class="sidepanel__close-menu_btn fa-solid fa-xmark btn"
           data-close-sidepanel-btn
         >
-          close
-        </span>
+        </i>
         <img
           src="src/assets/media/img/logo/ttm-logo-white-and-color.png"
           alt="website logo"
@@ -45,18 +40,16 @@
       </div>
       <div class="sidepanel-watches__roller-container">
         <div class="sidepanel-roller__btn--holder">
-          <span
+          <i
             aria-label="previous"
-            class="roller__btn previous material-symbols-outlined btn"
-            data-sidepanel-roller-btn-previous
-            >chevron_left</span
-          >
-          <span
+            class="roller__btn previous fa-solid fa-chevron-left btn"
+            data-roller-btn-previous
+          ></i>
+          <i
             aria-label="next"
-            class="roller__btn next material-symbols-outlined btn"
-            data-sidepanel-roller-btn-next
-            >chevron_right</span
-          >
+            class="roller__btn next fa-solid fa-chevron-right btn"
+            data-roller-btn-next
+          ></i>
         </div>
         <div class="roller roller-on-sidepanel" data-roller-sidepanel>
           <!-- watches data will be auto injected within div/glider-track -->
@@ -86,14 +79,12 @@
     <header>
       <nav class="navbar" data-navbar>
         <div class="navbar__items">
-          <span
-            class="navbar__item navbar__open-menu_btn symbol btn"
+          <i
+            class="navbar__item navbar__open-menu_btn fa-solid fa-bars btn"
             data-open-menu-btn
             data-navbar-item
-            >&#9868;<span class="navbar__open-menu_btn menu-txt btn"
-              >Menu</span
-            ></span
-          >
+            >&nbsp;M&nbsp;e&nbsp;n&nbsp;u
+          </i>
         </div>
         <div class="navbar__logo btn">
           <img
@@ -102,10 +93,10 @@
           />
         </div>
         <div class="navbar__items">
-          <span class="navbar__item navbar__search symbol btn" data-navbar-item
-            >&#9906;<span class="navbar__item menu-txt btn" data-navbar-item
-              >Search</span
-            ></span
+          <i
+            class="navbar__item navbar__search-btn fa-solid fa-magnifying-glass symbol btn"
+            data-navbar-item
+            >&nbsp;S&nbsp;e&nbsp;a&nbsp;r&nbsp;c&nbsp;h</i
           >
         </div>
       </nav>
@@ -152,18 +143,16 @@
     <section class="watches" data-shadow-content>
       <div class="watches__roller-container">
         <div class="roller__btn--holder">
-          <span
+          <i
             aria-label="previous"
-            class="roller__btn previous material-symbols-outlined btn"
+            class="roller__btn previous fa-solid fa-chevron-left btn"
             data-roller-btn-previous
-            >chevron_left</span
-          >
-          <span
+          ></i>
+          <i
             aria-label="next"
-            class="roller__btn next material-symbols-outlined btn"
+            class="roller__btn next fa-solid fa-chevron-right btn"
             data-roller-btn-next
-            >chevron_right</span
-          >
+          ></i>
         </div>
         <div class="roller" data-roller>
           <!-- watches data will be auto injected within div/glider-track -->
@@ -328,9 +317,7 @@
         href="#top-page"
         class="footer go-top-button btn"
       >
-        <span class="go-top-button__arrow material-symbols-outlined">
-          expand_less
-        </span>
+        <i class="go-top-button__arrow fa-solid fa-chevron-up"></i>
       </a>
     </footer>
     <script
