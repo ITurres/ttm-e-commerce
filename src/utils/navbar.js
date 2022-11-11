@@ -57,7 +57,7 @@ window.addEventListener("scroll", () => {
   if (scrollTop === 0) {
     //*so when scroll reaches top of page, logo turns back to white and else (see variables)/
     navbarHoverAnimation(whiteLogoSrc, bgColor1, fontColor1);
-    showNavbar();
+    showNavbar(); //!this call fixes the issue of navbar not showing up when scroll reaches top on -iOS- devices/
     // hoverWhenMouse(true);
   }
 });
