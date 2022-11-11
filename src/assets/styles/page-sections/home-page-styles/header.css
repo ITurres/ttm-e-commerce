@@ -17,6 +17,7 @@
   object-fit: cover;
   top: 0;
   height: 100vh; /*?change if needed - later*/
+  background: white;
 }
 
 .header-content__title,
