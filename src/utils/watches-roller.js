@@ -1,9 +1,10 @@
 const $roller = document.querySelector("[data-roller]");
 
-window.addEventListener("load", () => {
+window.addEventListener("load", function () {
   new Glider($roller, {
     slidesToScroll: 1,
     slidesToShow: 1.5,
+    scrollLock: true,
     draggable: true,
     dragVelocity: 100,
     duration: 0,

@@ -1,9 +1,10 @@
 const $sidepanelRoller = document.querySelector("[data-roller-sidepanel]");
 
-window.addEventListener("load", () => {
+window.addEventListener("load", function () {
   new Glider($sidepanelRoller, {
     slidesToScroll: 1,
     slidesToShow: 2.5,
+    scrollLock: true,
     draggable: true,
     dragVelocity: 100,
     duration: 0,

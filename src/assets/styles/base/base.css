@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   font-family: Helvetica, sans-serif;
   line-height: 1.4;
-  background-color: #fff;
+  background-color: var(--style-color-darkBrown);
 }
 
 .container {
