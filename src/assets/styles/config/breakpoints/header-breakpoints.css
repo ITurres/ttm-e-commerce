@@ -16,8 +16,9 @@
   }
 }
 @media (max-height: 500px) {
-  .arrow {
+  .arrow-holder {
     display: none;
+    visibility: hidden;
     animation: none;
   }
 }
