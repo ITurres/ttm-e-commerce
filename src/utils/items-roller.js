@@ -1,3 +1,5 @@
+//!DISABLED DUE TO CSS ROLLER ONLY - CHECK section-roller.css/section-roller-breakpoints.css//
+
 // const $itemRollerContainer = document.querySelector("[data-roller]");
 
 // $itemRollerContainer.scrollTop = 100;
