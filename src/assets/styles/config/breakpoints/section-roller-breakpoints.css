@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+  .watches__roller-container {
+    margin-left: 10%;
+  }
+  .roller__img {
+    height: 55vh;
+  }
+}
+@media (min-height: 800px) {
+  .roller__img {
+    height: 40vh;
+  }
+}
