@@ -47,8 +47,7 @@ div.roller::-webkit-scrollbar-thumb {
   border-radius: 1.3rem;
   transform-origin: center;
   transition: all 0.5s ease;
-  height: 40vh;
-  /* height: 50vh; */
+  height: 50vh;
   width: fit-content;
 }
 

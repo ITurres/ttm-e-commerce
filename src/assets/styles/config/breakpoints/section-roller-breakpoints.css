@@ -6,8 +6,8 @@
     height: 55vh;
   }
 }
-/* @media (min-height: 800px) {
+@media (min-height: 800px) {
   .roller__img {
     height: 40vh;
   }
-} */
+}
