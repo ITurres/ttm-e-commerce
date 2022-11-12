@@ -1,0 +1,26 @@
+roller btn:
+        <div class="roller__btn--holder">
+          <i
+            aria-label="previous"
+            class="roller__btn previous fa-solid fa-chevron-left btn"
+            data-roller-btn-previous
+          ></i>
+          <i
+            aria-label="next"
+            class="roller__btn next fa-solid fa-chevron-right btn"
+            data-roller-btn-next
+          ></i>
+        </div>
+
+______
+
+glider css min:
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.css"
+    />
+
+glider js:
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.js"></script>
