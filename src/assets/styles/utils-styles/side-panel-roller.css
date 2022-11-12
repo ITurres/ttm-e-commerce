@@ -3,10 +3,6 @@
   margin-left: 1.5rem;
 }
 
-.sidepanel-roller__btn--holder {
-  display: none;
-}
-
 .roller__item.sidepanel-roller {
   overflow: hidden;
   text-decoration: none;
@@ -28,6 +24,9 @@
   transition: all 0.5s ease;
 }
 
-.sidepanel-roller__dots {
+/* .sidepanel-roller__btn--holder {
+  display: none;
+} */
+/* .sidepanel-roller__dots {
   margin: 0.5rem 0 1rem 0;
-}
+} */
