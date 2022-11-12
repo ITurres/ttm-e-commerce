@@ -8,7 +8,7 @@
 }
 @media (min-height: 800px) {
   .roller__img {
-    height: 40vh;
+    height: 50vh; /*old 40vh*/
   }
   .roller__img.sidepanel-roller {
     height: 30vh;
