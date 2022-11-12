@@ -10,4 +10,7 @@
   .roller__img {
     height: 40vh;
   }
+  .roller__img.sidepanel-roller {
+    height: 30vh;
+  }
 }

@@ -1,3 +1,7 @@
+.roller.roller-on-sidepanel {
+  margin-bottom: 2rem;
+}
+
 .sidepanel-watches__roller-container {
   margin-top: 2rem;
   margin-left: 1.5rem;
@@ -8,6 +12,7 @@
   text-decoration: none;
   border-top-left-radius: unset;
   border-top-right-radius: unset;
+  height: 100%;
 }
 
 .item__title.sidepanel-roller,
@@ -22,6 +27,21 @@
   border-radius: unset;
   transform-origin: center;
   transition: all 0.5s ease;
+  height: 40vh;
+  width: 100%;
+}
+
+.roller.roller-on-sidepanel::-webkit-scrollbar {
+  height: 0.3rem;
+}
+
+.roller.roller-on-sidepanel::-webkit-scrollbar-track {
+  background: var(--style-color-gray);
+}
+
+.roller.roller-on-sidepanel::-webkit-scrollbar-thumb {
+  background: var(--style-color-white);
+  border-radius: 1rem;
 }
 
 /* .sidepanel-roller__btn--holder {
