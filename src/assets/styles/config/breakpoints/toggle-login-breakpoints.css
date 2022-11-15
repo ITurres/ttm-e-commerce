@@ -1,0 +1,11 @@
+@media (min-width: 1000px) {
+  .modal-content {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .modal-content {
+    width: 35%;
+  }
+}
