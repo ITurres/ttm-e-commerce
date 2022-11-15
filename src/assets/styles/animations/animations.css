@@ -10,3 +10,14 @@
   }
 }
 /* ABOVE - animation on all elements with class = arrow-holder/arrow*/
+
+/* Add Zoom Animation */
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
