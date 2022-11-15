@@ -1,7 +1,7 @@
 .sidepanel {
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 20;
   height: 100%;
   top: 0;
   left: 0;
@@ -73,7 +73,16 @@
   transition: all 0.2s ease-in-out;
 }
 
-.content__list--items a:hover {
+.login-btn {
+  font-weight: 500;
+  color: var(--style-color-white);
+  transition: all 0.2s ease-in-out;
+  background-color: var(--style-color-darkBrown);
+  border: none;
+}
+
+.content__list--items a:hover,
+.login-btn:hover {
   color: var(--style-color-gold);
 }
 
@@ -93,4 +102,5 @@
 .content__list--items:last-of-type {
   padding-top: 2rem;
   border-top: 1px solid var(--style-color-gray);
+  margin-bottom: 2rem;
 }
