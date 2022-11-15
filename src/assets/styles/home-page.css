@@ -15,6 +15,7 @@
 @import "utils-styles/navbar.css";
 @import "utils-styles/side-panel.css";
 @import "utils-styles/side-panel-roller.css";
+@import "utils-styles/login-modal.css";
 
 /*page-sections*/
 @import "page-sections/home-page-styles/header.css";
@@ -26,6 +27,7 @@
 @import "config/breakpoints/navbar-breakpoints.css";
 @import "config/breakpoints/sidepanel-breakpoints.css";
 @import "config/breakpoints/sidepanel-roller-breakpoints.css";
+@import "config/breakpoints/toggle-login-breakpoints.css";
 @import "config/breakpoints/header-breakpoints.css";
 @import "config/breakpoints/section-1-breakpoints.css";
 @import "config/breakpoints/section-roller-breakpoints.css";
