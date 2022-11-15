@@ -24,6 +24,6 @@ $sidePanel_closebtn.addEventListener("click", () => {
   }, 700);
 });
 
-const showSidepanel = () => {
+export const showSidepanel = () => {
   $sidePanel.classList.toggle("sidepanel--show");
 };
