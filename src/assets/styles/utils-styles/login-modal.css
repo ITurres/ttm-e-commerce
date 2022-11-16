@@ -1,16 +1,26 @@
-input[type="text"],
-input[type="password"] {
+.user-input {
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid var(--style-color-gold);
   box-sizing: border-box;
+}
+
+.input--invalid {
+  border: 1px solid red;
+}
+
+.user-input:-webkit-autofill,
+.user-input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--style-color-darkBrown);
+  box-shadow: 0 0 0 1000px var(--style-color-white) inset;
 }
 
 .label-title,
 .submit-btn {
   font-size: 0.8rem;
+  letter-spacing: 1.5px;
   font-family: var(--font-family-light), Helvetica;
   color: var(--style-color-darkBrown);
 }
@@ -52,7 +62,7 @@ img.logo {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   padding-top: 2.5rem;
 }
 
