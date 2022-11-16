@@ -1,8 +1,6 @@
 export const loginModalTemplate = () => {
   return `<form
     class="modal-content animate"
-    action="/action_page.php"
-    method="post"
   >
     <div class="logo-holder">
         <i
@@ -18,6 +16,7 @@ export const loginModalTemplate = () => {
         type="text"
         placeholder="Enter Username"
         name="uname"
+        class="user-input"
         data-username
         required
       />
@@ -26,6 +25,7 @@ export const loginModalTemplate = () => {
         type="password"
         placeholder="Enter Password"
         name="psw"
+        class="user-input"
         data-user-password
         required
       />
