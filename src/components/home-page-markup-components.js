@@ -1,3 +1,3 @@
-import "./load-section-roller-data.js";
-import "./load-sidepanel-roller.js";
-import "./load-login-modal.js";
+import "./loaders/load-section-roller-data.js";
+import "./loaders/load-sidepanel-roller.js";
+import "./loaders/load-login-modal.js";
