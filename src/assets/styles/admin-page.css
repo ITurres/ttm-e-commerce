@@ -1,0 +1,20 @@
+/*resets*/
+@import "resets/normalize.css";
+
+/*variables*/
+@import "variables/colors.css";
+@import "variables/fonts.css";
+
+/*animations*/
+@import "animations/animations.css";
+
+/*base*/
+@import "base/base.css";
+
+/*page-sections*/
+@import "page-sections/admin-page-styles/admin-navbar.css";
+@import "page-sections/admin-page-styles/admin-items-section.css";
+@import "page-sections/admin-page-styles/admin-footer.css";
+
+/*config*/
+@import "config/breakpoints/admin-items-breakpoints.css";

@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 1rem 0 1rem;
+  background-color: white;
+  /* border-bottom: 1px solid var(--style-color-darkBrown); */
+  box-shadow: 0 10px 15px 5px red;
+  list-style: none;
+  height: 5rem;
+  width: 100%;
+}
+
+.navbar__logo img {
+  height: 9vh;
+  width: auto;
+}

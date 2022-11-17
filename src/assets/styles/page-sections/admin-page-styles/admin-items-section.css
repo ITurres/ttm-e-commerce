@@ -1,0 +1,74 @@
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-flow: dense;
+  background-color: var(--style-color-white);
+  padding: 3rem 0.5rem;
+}
+
+.roller__item {
+  display: inline-block;
+  margin: 0.5rem;
+  text-decoration: none;
+  width: fit-content;
+  overflow: hidden;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
+  height: 100%;
+}
+
+.roller__img {
+  border-radius: 1.3rem;
+  height: auto;
+  width: 100%;
+}
+
+.item__text--holder {
+  background-color: var(--style-color-white);
+}
+
+.item__title {
+  color: var(--style-color-offBlack);
+  font-family: var(--font-family-bold);
+  padding-top: 0.4rem;
+}
+
+.item__about {
+  color: var(--style-color-offBlack);
+}
+
+.item-btn--holder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 2rem;
+}
+
+.item-btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2 ease-in-out;
+  background-color: var(--style-color-white);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.item-btn.item-edit {
+  border: 1px solid var(--style-color-green);
+}
+
+.item-btn.item-delete {
+  color: var(--style-gmt-master-red);
+  border: 1px solid var(--style-gmt-master-red);
+}
+
+.item-btn.item-edit:hover {
+  background-color: var(--style-color-green);
+  color: var(--style-color-white);
+}
+
+.item-btn.item-delete:hover {
+  background-color: var(--style-gmt-master-red);
+  color: var(--style-color-white);
+}

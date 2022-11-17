@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--style-color-darkBrown);
+  height: auto;
+}
+
+.footer__logo {
+  height: 9vh;
+  width: auto;
+  padding: 0.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.go-top-button__arrow {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--style-color-gray);
+  color: var(--style-color-white);
+  transition: color 0.2s ease-in-out;
+  width: 90vw;
+}
+
+.go-top-button__arrow:hover {
+  color: var(--style-color-gold);
+}
