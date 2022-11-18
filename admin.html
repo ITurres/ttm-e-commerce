@@ -18,6 +18,17 @@
     <title>The Time Meister | Admin</title>
   </head>
   <body id="top-page">
+    <div class="admin-items modal" data-edit-panel>
+      <form class="modal-content animate" action="#">
+        <div class="input--holder" data-inputs-holder>
+          <!-- inputs will be auto injected -->
+        </div>
+        <div class="btn--holder">
+          <button type="button" class="save-item">Save</button>
+          <button type="button" class="cancel-edit">Cancel</button>
+        </div>
+      </form>
+    </div>
     <nav class="navbar" data-navbar>
       <div class="navbar__logo btn">
         <img
@@ -53,5 +64,6 @@
       src="src/components/admin-page-markup-componenets.js"
       defer
     ></script>
+    <script type="module" src="src/utils/admin-page-utils.js" defer></script>
   </body>
 </html>
