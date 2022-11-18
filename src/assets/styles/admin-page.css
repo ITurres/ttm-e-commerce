@@ -14,7 +14,9 @@
 /*page-sections*/
 @import "page-sections/admin-page-styles/admin-navbar.css";
 @import "page-sections/admin-page-styles/admin-items-section.css";
+@import "page-sections/admin-page-styles/admin-edit-modal.css";
 @import "page-sections/admin-page-styles/admin-footer.css";
 
 /*config*/
 @import "config/breakpoints/admin-items-breakpoints.css";
+@import "config/breakpoints/admin-edit-modal-breakpoints.css";
