@@ -19,12 +19,12 @@
   </head>
   <body id="top-page">
     <div class="admin-items modal" data-edit-panel>
-      <form class="modal-content animate" action="#">
+      <form class="modal-content animate" action="#" data-edit-item-form>
         <div class="input--holder" data-inputs-holder>
           <!-- inputs will be auto injected -->
         </div>
         <div class="btn--holder">
-          <button type="button" class="save-item">Save</button>
+          <button type="submit" class="save-item">Save</button>
           <button type="button" class="cancel-edit">Cancel</button>
         </div>
       </form>
@@ -64,6 +64,6 @@
       src="src/components/admin-page-markup-componenets.js"
       defer
     ></script>
-    <script type="module" src="src/utils/admin-page-utils.js" defer></script>
+    <script type="module" src="src/admin-controller/admin-edit-item.js" defer></script>
   </body>
 </html>
