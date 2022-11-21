@@ -11,10 +11,10 @@ export const adminItemsTemplate = (watchId, srcset, src, alt, title, about) => {
       <p class="item__about">${about}</p>
     </div>
     <div class="item-btn--holder">
-      <button class="item-btn item-edit" data-edit-item-btn>
+      <button id="${watchId}" class="item-btn item-edit" data-edit-item-btn>
         <i class="fa-solid fa-pen"></i>
       </button>
-      <button class="item-btn item-delete" data-delete-item-btn>
+      <button id="${watchId}" class="item-btn item-delete" data-delete-item-btn>
         <i class="fa-solid fa-trash"></i>
       </button>
     </div>

@@ -1,4 +1,4 @@
-export const adminEditInputTemplates = (dataKey) => {
+export const adminEditInputTemplates = (itemId, dataKey, keyValue) => {
   return `<label for="${dataKey}"><b class="label-title">${dataKey}</b></label>
-    <input class="data-input" type="text" placeholder="Set here item's -${dataKey}-" name="${dataKey}" />`;
+    <input id="${itemId}" class="data-input ${dataKey}" type="text" placeholder="Set here item's -${dataKey}-" name="${dataKey}" value="${keyValue}" data-item-data/>`;
 };
