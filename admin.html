@@ -25,7 +25,9 @@
         </div>
         <div class="btn--holder">
           <button type="submit" class="save-item">Save</button>
-          <button type="button" class="cancel-edit">Cancel</button>
+          <button type="button" class="cancel-edit" data-cancel-update>
+            Cancel
+          </button>
         </div>
       </form>
     </div>
@@ -64,6 +66,11 @@
       src="src/components/admin-page-markup-componenets.js"
       defer
     ></script>
-    <script type="module" src="src/admin-controller/admin-edit-item.js" defer></script>
+    <script
+      type="module"
+      src="src/admin-controller/admin-edit-item.js"
+      defer
+    ></script>
+    <script type="module" src="src/utils/admin-page-utils.js" defer></script>
   </body>
 </html>
