@@ -69,7 +69,8 @@
 }
 
 button.save-item,
-button.cancel-edit {
+button.cancel-edit,
+button.cancel-new {
   font-family: var(--font-family-regular);
   font-size: 0.8rem;
   padding: 0.5rem 1rem;
@@ -86,7 +87,8 @@ button.save-item {
   width: 30%;
 }
 
-button.cancel-edit {
+button.cancel-edit,
+button.cancel-new {
   background-color: var(--style-color-white);
   border: 2px solid var(--style-gmt-master-red);
   color: var(--style-gmt-master-red);
@@ -96,7 +98,8 @@ button.save-item:hover {
   background-color: var(--style-color-lightGreen);
 }
 
-button.cancel-edit:hover {
+button.cancel-edit:hover,
+button.cancel-new:hover {
   background-color: var(--style-gmt-master-red);
   color: var(--style-color-white);
 }

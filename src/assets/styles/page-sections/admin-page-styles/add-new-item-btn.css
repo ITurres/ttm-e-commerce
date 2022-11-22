@@ -8,6 +8,11 @@
   width: 100%;
 }
 
+button.new-item-btn .fontawesome {
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
 button.new-item-btn {
   font-size: 0.8rem;
   text-align: center;
