@@ -13,6 +13,7 @@
 
 /*page-sections*/
 @import "page-sections/admin-page-styles/admin-navbar.css";
+@import "page-sections/admin-page-styles/add-new-item-btn.css";
 @import "page-sections/admin-page-styles/admin-items-section.css";
 @import "page-sections/admin-page-styles/admin-edit-modal.css";
 @import "page-sections/admin-page-styles/admin-footer.css";

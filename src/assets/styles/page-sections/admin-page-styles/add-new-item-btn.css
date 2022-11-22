@@ -1,0 +1,26 @@
+.new-item-btn--holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+  background-color: var(--style-color-white);
+  height: 15vh;
+  width: 100%;
+}
+
+button.new-item-btn {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: var(--font-family-regular);
+  padding: 0.8rem 1.2rem;
+  background-color: var(--style-color-green);
+  color: var(--style-color-white);
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button.new-item-btn:hover {
+  background-color: var(--style-color-lightGreen);
+}
