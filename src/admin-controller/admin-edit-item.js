@@ -1,13 +1,15 @@
 import { adminServices } from "../login/service/admin-service.js";
-import { toggleEditPanel } from "../utils/toggle-admin-edit-panel.js";
+import { togglePanelEdit } from "../utils/toggle-admin-panels.js";
 import { adminEditInputTemplates } from "../components/markup-templates/admin-edit-panel-template.js";
+
+const $editInputsHolder = document.querySelector("[data-edit-inputs-holder]");
 
 export const itemToUpdate = () => {
   const $editItemBtn = document.querySelectorAll("[data-edit-item-btn]");
   $editItemBtn.forEach((btn) => {
     btn.addEventListener("click", () => {
       getItemData(btn.id); //?passes btn's id clicked for comparison against element's id - see line 22-//
-      toggleEditPanel();
+      togglePanelEdit();
       updateItems();
     });
   });
@@ -20,28 +22,27 @@ export const getItemData = (btnId) => {
       items.forEach((item) => {
         if (item.id === btnId) {
           const inputValue = [];
-          //?items[0] cause i just need the keys from only one of the elements (since each-one has the same)//
           Object.keys(item).map((itemKey) => {
             Object.values(item).forEach((itemVal) => {
               inputValue.push(itemVal); //?stores each individual itemVal temporarily//
             });
-            injectItemsData(item.id, itemKey, inputValue.shift()); //?the itemVal temporarily stored gets use here -when shift-//
+            injectItemsData(
+              $editInputsHolder,
+              item.id,
+              itemKey,
+              inputValue.shift()
+            ); //?the itemVal temporarily stored gets use here -when shift-//
           });
         }
       });
     })
     .catch((error) =>
-      console.log(`There was an error trying to fetch data ${error}`)
+      console.log(`There was an error trying to fetch data ==> ${error}`)
     );
 };
 
-const injectItemsData = (itemId, itemKey, inputValue) => {
-  const $inputsHolder = document.querySelector("[data-inputs-holder]");
-  $inputsHolder.innerHTML += adminEditInputTemplates(
-    itemId,
-    itemKey,
-    inputValue
-  );
+export const injectItemsData = (holder, itemId, itemKey, inputValue) => {
+  holder.innerHTML += adminEditInputTemplates(itemId, itemKey, inputValue);
 };
 
 //? all this constants are -inputs-, I need to find a way to loop throught them and retrieve each individual value,
@@ -92,11 +93,11 @@ export const updateItems = () => {
         sidepanel_class,
         doc_title
       )
-      .then(() => {
-        console.log("Updated");
+      .then((response) => {
+        console.log("Updated", response);
       })
       .catch((error) =>
-        console.log(`There was an error trying to fetch data ${error}`)
+        console.log(`There was an error trying to fetch data ==> ${error}`)
       );
   });
 };
