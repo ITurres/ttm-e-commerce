@@ -1,4 +1,4 @@
-import { clientServices } from "./service/client-service.js";
+import { clientServices } from "../login/service/client-service.js";
 
 const loginForm = document.querySelector(".modal-content");
 const inputUsername = document.querySelector("[data-username]");
