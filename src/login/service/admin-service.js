@@ -55,7 +55,14 @@ const updateWatchData = (
     .catch((error) => error);
 };
 
+const deleteItem = (itemId) => {
+  fetch(`http://localhost:3000/watches_data/${itemId}`, {
+    method: "DELETE",
+  });
+};
+
 export const adminServices = {
   watchItems,
   updateWatchData,
+  deleteItem,
 };
