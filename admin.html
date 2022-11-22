@@ -18,14 +18,27 @@
     <title>The Time Meister | Admin</title>
   </head>
   <body id="top-page">
-    <div class="admin-items modal" data-edit-panel>
-      <form class="modal-content animate" action="#" data-edit-item-form>
-        <div class="input--holder" data-inputs-holder>
+    <div class="admin-items modal" data-panel-add-new>
+      <form class="modal-content animate" action="#" data-add-new-item-form>
+        <div class="input--holder" data-add-new-inputs-holder>
           <!-- inputs will be auto injected -->
         </div>
         <div class="btn--holder">
           <button type="submit" class="save-item">Save</button>
-          <button type="button" class="cancel-edit" data-cancel-update>
+          <button type="button" class="cancel-new" data-add-new-cancel-btn>
+            Cancel
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="admin-items modal" data-panel-edit>
+      <form class="modal-content animate" action="#" data-edit-item-form>
+        <div class="input--holder" data-edit-inputs-holder>
+          <!-- inputs will be auto injected -->
+        </div>
+        <div class="btn--holder">
+          <button type="submit" class="save-item">Save</button>
+          <button type="button" class="cancel-edit" data-cancel-update-btn>
             Cancel
           </button>
         </div>
@@ -42,7 +55,7 @@
     <div class="new-item-btn--holder">
       <button class="new-item-btn" data-add-new-item-btn>
         add new item
-        <i class="fa-solid fa-square-plus"></i>
+        <i class="fa-solid fa-square-plus fontawesome"></i>
       </button>
     </div>
     <section 1 class="items-grid"></section>
@@ -66,6 +79,12 @@
     <script
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <script
       type="module"
