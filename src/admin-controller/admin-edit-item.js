@@ -13,21 +13,26 @@ export const itemToUpdate = () => {
   });
 };
 
-const getItemData = (btnId) => {
-  adminServices.watchItems().then((items) => {
-    items.forEach((item) => {
-      if (item.id === btnId) {
-        const inputValue = [];
-        //?items[0] cause i just need the keys from only one of the elements (since each-one has the same)//
-        Object.keys(item).map((itemKey) => {
-          Object.values(item).forEach((itemVal) => {
-            inputValue.push(itemVal); //?stores each individual itemVal temporarily//
+export const getItemData = (btnId) => {
+  adminServices
+    .watchItems()
+    .then((items) => {
+      items.forEach((item) => {
+        if (item.id === btnId) {
+          const inputValue = [];
+          //?items[0] cause i just need the keys from only one of the elements (since each-one has the same)//
+          Object.keys(item).map((itemKey) => {
+            Object.values(item).forEach((itemVal) => {
+              inputValue.push(itemVal); //?stores each individual itemVal temporarily//
+            });
+            injectItemsData(item.id, itemKey, inputValue.shift()); //?the itemVal temporarily stored gets use here -when shift-//
           });
-          injectItemsData(item.id, itemKey, inputValue.shift()); //?the itemVal temporarily stored gets use here -when shift-//
-        });
-      }
-    });
-  });
+        }
+      });
+    })
+    .catch((error) =>
+      console.log(`There was an error trying to fetch data ${error}`)
+    );
 };
 
 const injectItemsData = (itemId, itemKey, inputValue) => {
@@ -39,9 +44,9 @@ const injectItemsData = (itemId, itemKey, inputValue) => {
   );
 };
 
-//? all this constants are -inputs-, we need to find a way to loop throught them and retrieve each individual value,
+//? all this constants are -inputs-, I need to find a way to loop throught them and retrieve each individual value,
 //? to be send to the -updateWatchData- function on admin-service.js. NOTE*: forEach works, but -updateWatchData- only receives
-//? first element!...maybe a loop within >??-updateWatchData-??< but where?...(TO BE FIXED) //
+//? first element!...maybe a loop within >??-updateWatchData-??< but where?...(TO BE REFACTORED) //
 export const updateItems = () => {
   const $form = document.querySelector("[data-edit-item-form]");
   $form.addEventListener("submit", (event) => {
@@ -90,6 +95,8 @@ export const updateItems = () => {
       .then(() => {
         console.log("Updated");
       })
-      .catch((error) => error);
+      .catch((error) =>
+        console.log(`There was an error trying to fetch data ${error}`)
+      );
   });
 };
