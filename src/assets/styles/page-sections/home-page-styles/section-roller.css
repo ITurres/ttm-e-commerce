@@ -13,14 +13,14 @@ section.watches {
 }
 
 .roller {
-  /* overflow: auto; /*?styles for roller with (css only)/
-  white-space: nowrap; */ /*?styles for roller with (css only)*/
-  padding-bottom: 2rem;
+  /* overflow: auto; /*?styles for roller built with (css only)/
+  white-space: nowrap; */ /*?styles for roller built with (css only)*/
   margin-bottom: 4rem;
   width: 80%;
 }
 
-div.roller::-webkit-scrollbar {
+/*?BELOW---styles for roller built with (css only)/
+/* div.roller::-webkit-scrollbar {
   height: 0.3rem;
 }
 
@@ -31,7 +31,8 @@ div.roller::-webkit-scrollbar-track {
 div.roller::-webkit-scrollbar-thumb {
   background: var(--style-color-green);
   border-radius: 1rem;
-}
+} */
+/*?ABOVE---styles for roller built with (css only)*/
 
 .roller__item {
   display: inline-block;
