@@ -29,7 +29,7 @@ const dataToValidate = () => {
 const validateLogin = (inputUn, inputPw, userUn, userPw) => {
   if (inputUn === userUn && inputPw === userPw) {
     console.log("acces granted");
-    //!HERE GOES HREF FOR ADMINISTRATOR PAGE (TO BE SET)//
+    window.location.href = "../admin.html";
     styleValidation(true); //clear inputs
   }
 };
