@@ -8,7 +8,7 @@ export const rollerItemsMarkupTemplate = (
   about,
   classX
 ) => {
-  return `<a href="${href}" target="_blank" id="${watchId}" class="roller__item ${classX}" data-watch-item>
+  return `<li class="splide__slide"><a href="${href}" target="_blank" id="${watchId}" class="roller__item ${classX}" data-watch-item>
       <source srcset="${srcset}" type="image/jpg" class="roller__img" />
       <img
         src="${src}"
@@ -19,5 +19,5 @@ export const rollerItemsMarkupTemplate = (
         <p class="item__title ${classX}">${title}</p>
         <p class="item__about ${classX}">${about}</p>
       </div>
-    </a>`;
+    </a></li>`;
 };
