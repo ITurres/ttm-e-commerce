@@ -1,5 +1,5 @@
-import { watches_data } from "./watches-data.js";
-import { rollerItemsMarkupTemplate } from "./roller-items-template.js";
+import { watches_data } from "../watches-data.js";
+import { rollerItemsMarkupTemplate } from "../markup-templates/roller-items-template.js";
 
 const $sidePanelRollerHolder = document.querySelector(
   "[data-roller-sidepanel]"
