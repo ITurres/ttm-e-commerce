@@ -38,9 +38,14 @@
           <!-- empty so pushes sidepanel__logo to center -->
         </span>
       </div>
-      <div class="sidepanel-watches__roller-container">
-        <div class="roller roller-on-sidepanel" data-roller-sidepanel>
-          <!-- watches data will be auto injected -->
+      <div
+        id="splide1"
+        class="splide splide-on-sidepanel sidepanel-watches__roller-container"
+      >
+        <div class="splide__track roller roller-on-sidepanel">
+          <ul class="splide__list roller" data-roller-sidepanel>
+            <!-- login-modal markup will be auto injected -->
+          </ul>
         </div>
       </div>
       <div class="sidepanel__content">
@@ -127,7 +132,7 @@
         </p>
       </div>
     </section>
-    <section class="splide watches" data-shadow-content>
+    <section id="splide2" class="splide watches" data-shadow-content>
       <div class="splide__track watches__roller-container">
         <ul class="splide__list roller" data-roller>
           <!-- watches data will be auto injected -->
