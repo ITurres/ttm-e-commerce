@@ -14,6 +14,10 @@
       rel="apple-touch-icon"
       href="src/assets/media/img/logo/apple-icon-black-color.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
     <link rel="stylesheet" href="src/assets/styles/watch-page.css" />
     <title></title>
   </head>
@@ -34,9 +38,14 @@
           <!-- empty so pushes sidepanel__logo to center -->
         </span>
       </div>
-      <div class="sidepanel-watches__roller-container">
-        <div class="roller roller-on-sidepanel" data-roller-sidepanel>
-          <!-- watches data will be auto injected within div/glider-track -->
+      <div
+        id="splide-watch-pages"
+        class="splide splide-on-sidepanel sidepanel-watches__roller-container"
+      >
+        <div class="splide__track roller roller-on-sidepanel">
+          <ul class="splide__list roller" data-roller-sidepanel>
+            <!-- login-modal markup will be auto injected -->
+          </ul>
         </div>
       </div>
       <div class="sidepanel__content">
@@ -257,6 +266,7 @@
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script
       type="module"
       src="src/components/watch-pages-markup-components.js"
