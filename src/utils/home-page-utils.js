@@ -1,4 +1,5 @@
 import "./navbar.js";
+import "./splide-roller/sidepanel-splide-roller.js";
 import "./splide-roller/splide-roller.js";
 import "./sidepanel.js";
 import "./get-item-id.js";
