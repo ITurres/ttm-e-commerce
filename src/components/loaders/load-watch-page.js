@@ -1,6 +1,8 @@
-import { watches_data } from "./watches-data.js";
-import { headerMarkupTemplate } from "./watch-pages-template.js";
-import { aboutMarkupTemplate } from "./watch-pages-template.js";
+import { watches_data } from "../watches-data.js";
+import {
+  headerMarkupTemplate,
+  aboutMarkupTemplate,
+} from "../markup-templates/watch-pages-template.js";
 
 const $headerContent = document.querySelector("[data-header-content]");
 const $sectionAbout = document.body.children[2];
