@@ -20,13 +20,14 @@
 /*page-sections*/
 @import "page-sections/home-page-styles/header.css";
 @import "page-sections/home-page-styles/section-1.css";
+@import "page-sections/home-page-styles/section-roller.css"; /*?--will set the styles for splide-roller on sidepanel*/
 @import "page-sections/watch-page-styles/watches-section-1.css";
-@import "page-sections/home-page-styles/section-roller.css";
 @import "page-sections/watch-page-styles/dif-styles.css";
 @import "page-sections/home-page-styles/footer.css";
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
+@import "config/breakpoints/section-roller-breakpoints.css"; /*?--will set the breakpoints styles for splide-roller on sidepanel*/
 @import "config/breakpoints/sidepanel-breakpoints.css";
 @import "config/breakpoints/sidepanel-roller-breakpoints.css";
 @import "config/breakpoints/toggle-login-breakpoints.css";
