@@ -2,18 +2,43 @@
   .watches__roller-container {
     margin-left: 10%;
   }
-  .roller__img {
-    height: 55vh;
+  .roller {
+    width: 30%;
+  }
+  /*SPLIDE elements STYLES overriding styles from link on html*/
+  .splide__arrow {
+    display: block;
+    background-color: var(--style-color-white);
+    transform: translateY(-140%);
+    width: 3.3rem;
+    height: 3.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .splide__arrow:hover {
+    background-color: var(--style-color-green);
+  }
+  .splide__arrow--prev {
+    left: 11%;
+  }
+  .splide__arrow--next {
+    right: 4%;
+  }
+  .splide__arrow:disabled {
+    opacity: 0;
+  }
+  .splide__arrow svg {
+    fill: var(--style-color-darkBrown);
+    height: 3.3rem;
+    width: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .splide__arrow:hover svg {
+    fill: var(--style-color-white);
   }
 }
 
-/*
-@media (min-height: 800px) {
-  .roller__img {
-    height: 50vh; 
-    /*old 40vh*/
-  /*}
-  .roller__img.sidepanel-roller {
-    height: 30vh;
+@media (min-width: 600px) {
+  .roller {
+    width: 30%;
   }
-}*/
+}
