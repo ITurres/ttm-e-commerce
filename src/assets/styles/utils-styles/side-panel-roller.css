@@ -1,5 +1,6 @@
 .roller.roller-on-sidepanel {
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .sidepanel-watches__roller-container {
@@ -8,11 +9,11 @@
 }
 
 .roller__item.sidepanel-roller {
+  display: inline-block;
   overflow: hidden;
   text-decoration: none;
   border-top-left-radius: unset;
   border-top-right-radius: unset;
-  height: 100%;
 }
 
 .item__title.sidepanel-roller,
@@ -27,11 +28,11 @@
   border-radius: unset;
   transform-origin: center;
   transition: all 0.5s ease;
-  height: 40vh;
   width: 100%;
 }
 
-.roller.roller-on-sidepanel::-webkit-scrollbar {
+/*?BELOW---styles for roller built with (css only)/
+/* .roller.roller-on-sidepanel::-webkit-scrollbar {
   height: 0.3rem;
 }
 
@@ -42,11 +43,5 @@
 .roller.roller-on-sidepanel::-webkit-scrollbar-thumb {
   background: var(--style-color-white);
   border-radius: 1rem;
-}
-
-/* .sidepanel-roller__btn--holder {
-  display: none;
 } */
-/* .sidepanel-roller__dots {
-  margin: 0.5rem 0 1rem 0;
-} */
+/*?ABOVE---styles for roller built with (css only)*/
