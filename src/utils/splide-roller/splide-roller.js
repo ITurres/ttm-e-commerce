@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".splide");
-  splide.mount();
+  let splideOnSection = new Splide("#splide2");
+  splideOnSection.mount();
 });
