@@ -14,6 +14,10 @@
       rel="apple-touch-icon"
       href="src/assets/media/img/logo/apple-icon-black-color.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
     <link rel="stylesheet" href="src/assets/styles/home-page.css" />
     <title>The Time Meister E-Commerce</title>
   </head>
@@ -123,11 +127,11 @@
         </p>
       </div>
     </section>
-    <section class="watches" data-shadow-content>
-      <div class="watches__roller-container">
-        <div class="roller" data-roller>
+    <section class="splide watches" data-shadow-content>
+      <div class="splide__track watches__roller-container">
+        <ul class="splide__list roller" data-roller>
           <!-- watches data will be auto injected -->
-        </div>
+        </ul>
       </div>
     </section>
     <div class="modal" data-modal-holder>
@@ -298,11 +302,16 @@
       crossorigin="anonymous"
     ></script>
     <script
-    type="module"
-    src="src/components/home-page-markup-components.js"
-    defer
+      type="module"
+      src="src/components/home-page-markup-components.js"
+      defer
     ></script>
-    <script type="module" src="src/admin-controller/validate-login.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script
+      type="module"
+      src="src/admin-controller/validate-login.js"
+      defer
+    ></script>
     <script type="module" src="src/utils/home-page-utils.js" defer></script>
   </body>
 </html>
