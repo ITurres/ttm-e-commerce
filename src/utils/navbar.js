@@ -19,7 +19,8 @@ export const navbarHoverAnimation = (src, bgColor, textColor) => {
   $navbarItems.forEach((element) => {
     element.style.color = textColor;
   });
-  $navbar.children[1].children[0].src = src;
+  //?below children go like: nav => navbar__logo => anchor => img element//
+  $navbar.children[1].children[0].children[0].src = src;
   $navbar.style.transition = "0.5s";
 };
 
