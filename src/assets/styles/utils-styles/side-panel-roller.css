@@ -13,6 +13,7 @@
   border-top-left-radius: unset;
   border-top-right-radius: unset;
   height: 100%;
+  width: 50%;
 }
 
 .item__title.sidepanel-roller,
@@ -20,14 +21,17 @@
   background-color: var(--style-color-darkBrown);
   color: var(--style-color-white);
   padding-right: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.item__title.sidepanel-roller {
+  letter-spacing: 0.1rem;
 }
 
 .roller__img.sidepanel-roller {
   border-radius: unset;
   transform-origin: center;
   transition: all 0.5s ease;
-  height: 40vh;
   width: 100%;
 }
 

@@ -5,6 +5,9 @@
   .sidepanel__content {
     padding: 0 2.5rem;
   }
+  .roller__item.sidepanel-roller {
+    width: 30%;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -13,5 +16,12 @@
   }
   .sidepanel__content {
     padding: 0 4rem;
+  }
+  .roller__item.sidepanel-roller {
+    width: 30%;
+  }
+  .item__title.sidepanel-roller,
+  .item__about.sidepanel-roller {
+    font-size: 0.8rem;
   }
 }

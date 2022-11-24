@@ -65,6 +65,7 @@ div.roller::-webkit-scrollbar-thumb {
   font-size: 0.9rem;
   color: var(--style-color-offBlack);
   font-family: var(--font-family-bold);
+  letter-spacing: 0.1rem;
   padding-top: 0.4rem;
 }
 
