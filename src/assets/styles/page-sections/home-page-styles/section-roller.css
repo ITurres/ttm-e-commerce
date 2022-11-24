@@ -41,7 +41,7 @@ div.roller::-webkit-scrollbar-thumb {
   border-top-left-radius: 1.3rem;
   border-top-right-radius: 1.3rem;
   height: 100%;
-  width: 60%;
+  width: 70%;
 }
 
 .roller__img {
@@ -62,11 +62,13 @@ div.roller::-webkit-scrollbar-thumb {
 }
 
 .item__title {
+  font-size: 0.9rem;
   color: var(--style-color-offBlack);
   font-family: var(--font-family-bold);
   padding-top: 0.4rem;
 }
 
 .item__about {
+  font-size: 0.8rem;
   color: var(--style-color-offBlack);
 }
