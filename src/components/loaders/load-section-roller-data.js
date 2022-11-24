@@ -1,16 +1,41 @@
 import { watches_data } from "../watches-data.js";
 import { rollerItemsMarkupTemplate } from "../markup-templates/roller-items-template.js";
+import { adminServices } from "../../login/service/admin-service.js";
 
 const $sectionRollerHolder = document.querySelector("[data-roller]");
 
-Object.values(watches_data).forEach((element) => {
-  $sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(
-    element.id,
-    element.page_href,
-    element.roller_srcset,
-    element.roller_src,
-    element.img_alt,
-    element.roller_title,
-    element.roller_about
-  );
-});
+adminServices
+  .watchItems()
+  .then((items) => {
+    items.forEach((item) => {
+      $sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(
+        item.id,
+        item.page_href,
+        item.roller_srcset,
+        item.roller_src,
+        item.img_alt,
+        item.roller_title,
+        item.roller_about
+      );
+      console.log(
+        "The Watch items you are visualizing renders from => JSON-server-data"
+      );
+    });
+  })
+  .catch((error) => {
+    Object.values(watches_data).forEach((item) => {
+      $sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(
+        item.id,
+        item.page_href,
+        item.roller_srcset,
+        item.roller_src,
+        item.img_alt,
+        item.roller_title,
+        item.roller_about
+      );
+    });
+    console.log(
+      "The Watch items you are visualizing renders from => JS-static-data | data from JSON-server got an error =>",
+      error
+    );
+  });

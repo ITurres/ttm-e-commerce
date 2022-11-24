@@ -1,33 +1,69 @@
-import { watches_data } from "./watches-data.js";
-import { headerMarkupTemplate } from "./watch-pages-template.js";
-import { aboutMarkupTemplate } from "./watch-pages-template.js";
+import { adminServices } from "../../login/service/admin-service.js";
+import { watches_data } from "../watches-data.js";
+import {
+  headerMarkupTemplate,
+  aboutMarkupTemplate,
+} from "../markup-templates/watch-pages-template.js";
 
 const $headerContent = document.querySelector("[data-header-content]");
 const $sectionAbout = document.body.children[2];
-const watchId_data = Object.keys(watches_data);
 const itemClickedID = localStorage.getItem("watchId");
-const $aboutSectionContent = document.querySelector(
-  "[data-about-section-content]"
-);
+// const $aboutSectionContent = document.querySelector(
+//   "[data-about-section-content]"
+// );
 
-Object.values(watches_data).forEach((element) => {
-  if (itemClickedID === element.id) {
-    window.top.document.title = element.doc_title;
-    $sectionAbout.classList.add(`${element.style_class}`);
-    $headerContent.innerHTML = headerMarkupTemplate(
-      element.video_src,
-      element.video_srcset,
-      element.header_title,
-      element.header_subtitle
+adminServices
+  .watchItems()
+  .then((items) => {
+    items.forEach((item) => {
+      if (itemClickedID === item.id) {
+        window.top.document.title = item.doc_title;
+        $sectionAbout.classList.add(`${item.style_class}`);
+        $headerContent.innerHTML = headerMarkupTemplate(
+          item.video_src,
+          item.video_srcset,
+          item.header_title,
+          item.header_subtitle
+        );
+        $sectionAbout.innerHTML = aboutMarkupTemplate(
+          item.style_class,
+          item.about_title,
+          item.about_text,
+          item.watch_price,
+          item.img_srcset,
+          item.img_src,
+          item.img_alt
+        );
+      }
+      console.log(
+        "The Watch page you are visualizing renders from => JSON-server-data"
+      );
+    });
+  })
+  .catch((error) => {
+    Object.values(watches_data).forEach((item) => {
+      if (itemClickedID === item.id) {
+        window.top.document.title = item.doc_title;
+        $sectionAbout.classList.add(`${item.style_class}`);
+        $headerContent.innerHTML = headerMarkupTemplate(
+          item.video_src,
+          item.video_srcset,
+          item.header_title,
+          item.header_subtitle
+        );
+        $sectionAbout.innerHTML = aboutMarkupTemplate(
+          item.style_class,
+          item.about_title,
+          item.about_text,
+          item.watch_price,
+          item.img_srcset,
+          item.img_src,
+          item.img_alt
+        );
+      }
+    });
+    console.log(
+      "The Watch page you are visualizing renders from => JS-static-data | data from JSON-server got an error =>",
+      error
     );
-    $sectionAbout.innerHTML = aboutMarkupTemplate(
-      element.style_class,
-      element.about_title,
-      element.about_text,
-      element.watch_price,
-      element.img_srcset,
-      element.img_src,
-      element.img_alt
-    );
-  }
-});
+  });
