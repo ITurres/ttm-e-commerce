@@ -2,6 +2,9 @@
   .sidepanel--show {
     width: 70%;
   }
+  .sidepanel__content {
+    padding: 0 2.5rem;
+  }
   .sidepanel__close-menu_btn {
     margin-left: 2.5rem;
   }
@@ -12,5 +15,14 @@
   }
   .sidepanel__close-menu_btn {
     margin-left: 4rem;
+  }
+  .sidepanel__content {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidepanel__content {
+    padding: 0 1.5rem;
   }
 }

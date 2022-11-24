@@ -2,9 +2,6 @@
   .sidepanel-watches__roller-container {
     margin-left: 2.5rem;
   }
-  .sidepanel__content {
-    padding: 0 2.5rem;
-  }
   .roller__item.sidepanel-roller {
     width: 30%;
   }
@@ -13,9 +10,6 @@
 @media (min-width: 1000px) {
   .sidepanel-watches__roller-container {
     margin-left: 4rem;
-  }
-  .sidepanel__content {
-    padding: 0 4rem;
   }
   .roller__item.sidepanel-roller {
     width: 30%;

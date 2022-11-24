@@ -58,10 +58,6 @@
   margin-right: 2rem;
 }
 
-.sidepanel__content {
-  padding: 1.5rem;
-}
-
 .content__list {
   list-style: none;
 }
@@ -90,10 +86,10 @@
   margin-bottom: 0.5rem;
 }
 
-.content__list--items:first-of-type {
+/* .content__list--items:first-of-type {
   padding-top: 2rem;
   border-top: 1px solid var(--style-color-gray);
-}
+} */
 
 .content__list--items:nth-child(4) {
   margin-bottom: 2rem;
