@@ -8,7 +8,7 @@ export const watches_data = {
       "src/assets/media/img/img-watches-roller/watches-sea-dweller.webp",
     img_alt: "Rolex deepSea watch",
     roller_title: "sea-dweller",
-    roller_about: "The watch that has conquered the depths",
+    roller_about: "The watch that conquered depths",
     video_src:
       "src/assets/media/video/professional-watches-sea-dweller-cover-video.mp4",
     video_srcset:
@@ -117,7 +117,7 @@ export const watches_data = {
     roller_src:
       "src/assets/media/img/img-watches-roller/watches-cosmograph-daytona.webp",
     img_alt: "Rolex daytona watch",
-    roller_title: "cosmograph daytona",
+    roller_title: "daytona",
     roller_about: "Born for competition",
     video_src:
       "src/assets/media/video/professional-watches-cosmograph-daytona-cover-video.webm",
