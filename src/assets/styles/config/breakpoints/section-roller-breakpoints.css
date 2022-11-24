@@ -2,8 +2,13 @@
   .watches__roller-container {
     margin-left: 10%;
   }
-  .roller__img {
-    height: 55vh;
+  .roller__item {
+    width: 25%;
+  }
+}
+@media (min-width: 600px) {
+  .roller__item {
+    width: 25%;
   }
 }
 
@@ -12,7 +17,7 @@
   .roller__img {
     height: 50vh; 
     /*old 40vh*/
-  /*}
+/*}
   .roller__img.sidepanel-roller {
     height: 30vh;
   }
