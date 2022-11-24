@@ -26,6 +26,7 @@ export const watches_data = {
       "src/assets/media/img/watch-pages-img/page-sea-dweller-deepsea-beauty.jpg",
     style_class: "sea-dweller-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Sea-Dweller",
     doc_title: "Rolex Sea-Dweller - The watch that has conquered the depths",
   },
   air_king: {
@@ -53,6 +54,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-air-king-beauty.webp",
     style_class: "air-king-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Air-King",
     doc_title: "Rolex Air-King - A tribute to aviation",
   },
   gmt_master2: {
@@ -81,6 +83,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-gmt-master-ii.jpg",
     style_class: "gmt-master-ii-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Gmt-Master II",
     doc_title: "Rolex GMT-Master II - The cosmopolitan watch",
   },
   day_date: {
@@ -107,6 +110,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-day-date.jpg",
     style_class: "day-date-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Day-Date",
     doc_title: "Rolex Day-Date - The materialization of an ideal",
   },
   daytona: {
@@ -136,6 +140,7 @@ export const watches_data = {
       "src/assets/media/img/watch-pages-img/page-cosmograph-daytona.webp",
     style_class: "daytona-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Cosmograph Daytona",
     doc_title: "Rolex Cosmograph Daytona - Born for competition",
   },
   sky_dweller: {
@@ -163,6 +168,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-new-sky-dweller.jpg",
     style_class: "sky-dweller-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Sky-Dweller",
     doc_title: "Rolex Sky-Dweller - The time anytime, anywhere",
   },
   milgauss: {
@@ -190,6 +196,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-milgauss.jpg",
     style_class: "milgauss-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Milgauss",
     doc_title: "Rolex Milgauss - Homage to science",
   },
   cellini: {
@@ -218,6 +225,7 @@ export const watches_data = {
     img_src: "src/assets/media/img/watch-pages-img/page-cellini.webp",
     style_class: "cellini-style",
     sidepanel_class: "sidepanel-roller",
+    footer_link_title: "Cellini",
     doc_title: "Rolex Cellini - The classic watch",
   },
 };
