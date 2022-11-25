@@ -1,0 +1,102 @@
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--style-color-white);
+  padding: 0.3rem 1rem 0.5rem 1rem;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  height: 50%;
+  width: 100%;
+}
+
+.logo--holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.search-panel__logo {
+  width: 100%;
+  max-width: 130px;
+  min-width: 100px;
+  height: auto;
+}
+
+.search-panel__close_btn {
+  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 100%;
+  background-color: rgb(250, 250, 250);
+  color: var(--style-color-darkBrown);
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  transform: translateY(-30%), translateX(-50%);
+}
+
+.search-panel__text {
+  text-align: center;
+  font-family: var(--font-family-bold);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  color: var(--style-color-darkBrown);
+  padding: 2rem 0;
+}
+
+.search-panel__close_btn:hover {
+  color: var(--style-color-white);
+  background-color: var(--style-color-green);
+}
+.search-bar {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.search-bar__input {
+  background-color: var(--style-color-white);
+  border: none;
+  border-bottom: 1px solid var(--style-color-lightGray);
+  width: 70vw;
+}
+
+.search-bar__input::placeholder {
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: var(--style-color-lightGray);
+}
+
+.search-bar__input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--style-color-gray);
+  font-size: 1.5rem;
+}
+
+.search-bar__input:-webkit-autofill,
+.search-bar__input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--style-color-white);
+  box-shadow: 0 0 0 1000px var(--style-color-white) inset;
+}
+
+.search-bar__submit {
+  font-size: 1.2rem;
+  color: var(--style-color-white);
+  background-color: var(--style-color-green);
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.search-bar__submit:hover {
+  font-size: 1.1rem; /*?sice it has plus 1px due to border below, remove 1px from font-size so it doesnt move*/
+  background-color: var(--style-color-white);
+  border: 1px solid var(--style-color-green);
+  color: var(--style-color-green);
+}

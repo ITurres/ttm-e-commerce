@@ -1,0 +1,14 @@
+@media (min-width: 1000px) {
+  .search-bar__input {
+    width: 40vw;
+  }
+  .search-panel__text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .search-panel {
+    height: 90%;
+  }
+}
