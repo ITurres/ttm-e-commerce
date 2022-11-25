@@ -18,6 +18,52 @@
     <title></title>
   </head>
   <body id="top-page">
+    <div aria-label="hidden panel" class="search-panel" data-search-panel>
+      <div class="logo--holder">
+        <img
+          src="src/assets/media/img/logo/ttm-short-logo-color.png"
+          alt="website logo"
+          class="search-panel__logo"
+        />
+        <i
+          class="search-panel__close_btn fa-solid fa-xmark btn"
+          data-close-search-panel
+        >
+        </i>
+      </div>
+      <p class="search-panel__text">search the time meister website</p>
+      <div class="search-bar">
+        <input
+          type="search"
+          class="search-bar__input"
+          placeholder="Search"
+          aria-label="search"
+          data-search-input
+        />
+        <button class="search-bar__submit" aria-label="submit search">
+          <i class="fa-solid fa-arrow-right symbol btn"></i>
+        </button>
+      </div>
+      <div class="item-result-container" data-results-container>
+        <!-- watches data will be auto injected (using template below) -->
+      </div>
+      <template data-item-template>
+        <div class="search-item-result" data-item-result>
+          <a id="" href="watches.html" target="_blank" data-watch-item>
+            <img
+              src=""
+              class="item-result__img"
+              alt="watch picture"
+              data-item-img
+            />
+            <div class="item-result__text--holder">
+              <p class="item__title" data-item-title></p>
+              <p class="item__about" data-item-about></p>
+            </div>
+          </a>
+        </div>
+      </template>
+    </div>
     <nav aria-label="hidden sidepanel" class="sidepanel" data-sidepanel>
       <div class="sidepanel__header">
         <i
@@ -83,6 +129,7 @@
           <i
             class="navbar__item navbar__search-btn fa-solid fa-magnifying-glass symbol btn"
             data-navbar-item
+            data-open-search-panel
             >&nbsp;S&nbsp;e&nbsp;a&nbsp;r&nbsp;c&nbsp;h</i
           >
         </div>
