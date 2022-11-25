@@ -30,9 +30,11 @@ adminServices
     itemsFound = items.map((item) => {
       const $itemResultCard =
         $itemResultTemplate.content.cloneNode(true).children[0];
+      const itemAnchor = $itemResultCard.querySelector("[data-watch-item]");
       const itemImg = $itemResultCard.querySelector("[data-item-img]");
       const itemTitle = $itemResultCard.querySelector("[data-item-title]");
       const itemAbout = $itemResultCard.querySelector("[data-item-about]");
+      itemAnchor.id = item.id;
       itemImg.src = item.roller_src;
       itemTitle.textContent = item.roller_title;
       itemAbout.textContent = item.roller_about;
@@ -49,9 +51,11 @@ adminServices
     itemsFound = Object.values(watches_data).map((item) => {
       const $itemResultCard =
         $itemResultTemplate.content.cloneNode(true).children[0];
+      const itemAnchor = $itemResultCard.querySelector("[data-watch-item]");
       const itemImg = $itemResultCard.querySelector("[data-item-img]");
       const itemTitle = $itemResultCard.querySelector("[data-item-title]");
       const itemAbout = $itemResultCard.querySelector("[data-item-about]");
+      itemAnchor.id = item.id;
       itemImg.src = item.roller_src;
       itemTitle.textContent = item.roller_title;
       itemAbout.textContent = item.roller_about;
