@@ -44,10 +44,12 @@
           <i class="fa-solid fa-arrow-right symbol btn"></i>
         </button>
       </div>
-      <div class="item-result-container" data-results-container></div>
+      <div class="item-result-container" data-results-container>
+        <!-- watches data will be auto injected (using template below) -->
+      </div>
       <template data-item-template>
         <div class="search-item-result" data-item-result>
-          <a href="watches.html" target="_blank">
+          <a id="" href="watches.html" target="_blank" data-watch-item>
             <img
               src=""
               class="item-result__img"
