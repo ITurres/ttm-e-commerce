@@ -6,11 +6,8 @@ import {
 } from "../markup-templates/watch-pages-template.js";
 
 const $headerContent = document.querySelector("[data-header-content]");
-const $sectionAbout = document.body.children[2];
+const $sectionAbout = document.querySelector("[data-about-section-content]");
 const itemClickedID = localStorage.getItem("watchId");
-// const $aboutSectionContent = document.querySelector(
-//   "[data-about-section-content]"
-// );
 
 adminServices
   .watchItems()
