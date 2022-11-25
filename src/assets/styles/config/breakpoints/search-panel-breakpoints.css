@@ -6,9 +6,3 @@
     font-size: 1.3rem;
   }
 }
-
-@media (max-height: 500px) {
-  .search-panel {
-    height: 90%;
-  }
-}
