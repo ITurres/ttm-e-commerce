@@ -121,6 +121,9 @@
   background-color: var(--style-color-white);
   border: none;
   border-bottom: 1px solid var(--style-color-lightGray);
+  color: var(--style-color-darkBrown);
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
   width: 70vw;
 }
 
