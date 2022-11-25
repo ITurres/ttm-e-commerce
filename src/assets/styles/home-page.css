@@ -13,6 +13,7 @@
 
 /*utils-styles*/
 @import "utils-styles/navbar.css";
+@import "utils-styles/search-panel.css";
 @import "utils-styles/side-panel.css";
 @import "utils-styles/side-panel-roller.css";
 @import "utils-styles/login-modal.css";
@@ -25,6 +26,7 @@
 
 /*config*/
 @import "config/breakpoints/navbar-breakpoints.css";
+@import "config/breakpoints/search-panel-breakpoints.css";
 @import "config/breakpoints/sidepanel-breakpoints.css";
 @import "config/breakpoints/sidepanel-roller-breakpoints.css";
 @import "config/breakpoints/toggle-login-breakpoints.css";
