@@ -56,7 +56,6 @@
 
 ```bash
 git clone git@github.com:ITurres/ttm-e-commerce.git
-cd src\json-data
 
 ```
 
