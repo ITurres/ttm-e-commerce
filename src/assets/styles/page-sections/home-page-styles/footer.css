@@ -29,8 +29,9 @@
 }
 
 .footer .items__title {
-  font-family: var(--font-family-regular);
-  font-size: 0.7rem;
+  font-family: var(--font-family-regular), "Alexandria";
+  text-transform: uppercase;
+  font-size: 0.8rem;
   padding-bottom: 0.2rem;
   border-bottom: 1px solid var(--style-color-gray);
 }

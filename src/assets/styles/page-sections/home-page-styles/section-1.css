@@ -10,7 +10,8 @@
 
 .about__title {
   font-size: 1.3rem;
-  font-family: var(--font-family-regular);
+  font-family: var(--font-family-regular), "Alexandria";
+  text-transform: uppercase;
   letter-spacing: 0.2rem;
   margin-top: 2rem;
   padding: 2rem 1rem 1rem 5%;

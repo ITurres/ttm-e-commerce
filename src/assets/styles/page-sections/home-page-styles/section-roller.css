@@ -64,7 +64,9 @@ div.roller::-webkit-scrollbar-thumb {
 .item__title {
   font-size: 0.9rem;
   color: var(--style-color-offBlack);
-  font-family: var(--font-family-bold);
+  text-transform: uppercase;
+  font-family: var(--font-family-bold), "Alexandria";
+  font-weight: 600;
   letter-spacing: 0.1rem;
   padding-top: 0.4rem;
 }

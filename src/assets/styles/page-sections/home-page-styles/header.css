@@ -28,7 +28,7 @@
   letter-spacing: 0.3rem;
   line-height: 1.2;
   color: var(--style-color-white);
-  font-family: var(--font-family-light);
+  font-family: var(--font-family-light), "Alexandria";
   padding: 0 1rem;
   pointer-events: none;
 }
