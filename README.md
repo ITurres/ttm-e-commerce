@@ -9,19 +9,21 @@
 
 ### TOPIC: _Watches_
 
-### PARTIAL CLONE OF: https://www.rolex.com/
+### PARTIAL CLONE OF: https://www.rolex.com/ (November 2022 version)
 
 ### PURPOSE OF CHALLENGE:
+
+- The primary objective of this project was to translate provided wireframes and styles into an e-commerce website, complete with multiple pages catering to various user roles, including administrators and clients. Remarkably, this was achieved with just three HTML files, showcasing an efficient and streamlined approach to web development.
 
 - #### Create a Client page side.
 - #### Create an Administrators page side.
 - #### Introduce CRUD.
-- #### Load data on templates and inject them within main markup.
-- #### Reuse single HTML file for different webpages.
-- #### Store data across different webpages and reuse it.
+- #### Load data on templates and inject them within the main markup.
+- #### Reuse a single HTML file for different web pages (each watch page).
+- #### Store data across different web pages and reuse it.
 - #### Get familiar with JSON.
 - #### Keep up with Markup and Styles.
-- #### Continue practicing javaScript.
+- #### Continue practising JavaScript.
 
 ---
 
@@ -61,9 +63,9 @@ git clone git@github.com:ITurres/ttm-e-commerce.git
 
 ### _⚠️Website will load static-js-data if JSON-server is not loaded.👍_
 
-#### _In order for you to see actual CRUD data and be able to login as <admin - 123456> follow steps below._
+#### _In order for you to see actual CRUD data and be able to log in as <admin - 123456> follow the steps below._
 
-#### Within project folder
+#### Within the project folder
 
 ```bash
 cd src\json-data
@@ -89,7 +91,7 @@ json-server -w .\watches-data.json
 ### 🙋‍♂️ Emanuel Iturres
 
 - #### [![My Skills](https://skillicons.dev/icons?i=github)](https://skillicons.dev) [@ITurres](https://github.com/ITurres)
-- #### [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://skillicons.dev) [Linkedin](https://www.linkedin.com/in/emanuel-iturres/)
+- #### [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://skillicons.dev) [Linkedin](https://www.linkedin.com/in/arturoemanuelguerraiturres/details/projects/)
 
 ---
 
