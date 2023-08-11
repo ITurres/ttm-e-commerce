@@ -1,41 +1,25 @@
-import { watches_data } from "../watches-data.js";
-import { rollerItemsMarkupTemplate } from "../markup-templates/roller-items-template.js";
-import { adminServices } from "../../login/service/admin-service.js";
+import { watches_data } from '../watches-data.js';
+import { rollerItemsMarkupTemplate } from '../markup-templates/roller-items-template.js';
+import { adminServices } from '../../login/service/admin-service.js';
 
-const $sectionRollerHolder = document.querySelector("[data-roller]");
+const sectionRollerHolder = document.querySelector('[data-roller]');
 
 adminServices
   .watchItems()
   .then((items) => {
     items.forEach((item) => {
-      $sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(
-        item.id,
-        item.page_href,
-        item.roller_srcset,
-        item.roller_src,
-        item.img_alt,
-        item.roller_title,
-        item.roller_about
-      );
-      console.log(
-        "The Watch items you are visualizing renders from => JSON-server-data"
+      sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(item);
+      console.info(
+        'The Watch items you are visualizing renders from => JSON-server-data'
       );
     });
   })
   .catch((error) => {
     Object.values(watches_data).forEach((item) => {
-      $sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(
-        item.id,
-        item.page_href,
-        item.roller_srcset,
-        item.roller_src,
-        item.img_alt,
-        item.roller_title,
-        item.roller_about
-      );
+      sectionRollerHolder.innerHTML += rollerItemsMarkupTemplate(item);
     });
-    console.log(
-      "The Watch items you are visualizing renders from => JS-static-data | data from JSON-server got an error =>",
+    console.info(
+      'The Watch items you are visualizing renders from => JS-static-data | data from JSON-server got an error =>',
       error
     );
   });
