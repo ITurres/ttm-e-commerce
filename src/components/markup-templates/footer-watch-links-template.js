@@ -1,11 +1,11 @@
-export const footerLinkTemplate = (href,itemId,linkTitle) => {
+export const footerLinkTemplate = (item) => {
   return `<li class="footer content__list--items btn">
     <a
-      href="${href}"
-      id="${itemId}"
+      href="${item.page_href}"
+      id="${item.id}"
       target="_blank"
       data-watch-item
-      >${linkTitle}</a
+      >${item.footer_link_title}</a
     >
   </li>`;
 };
