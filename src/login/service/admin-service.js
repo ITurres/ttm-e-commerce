@@ -1,114 +1,50 @@
+const watchesDataURL = 'http://localhost:3000/watches_data';
+
 const watchItems = async () => {
-  const response = await fetch("http://localhost:3000/watches_data");
+  const response = await fetch(`${watchesDataURL}`);
   return await response.json();
 };
 
-const addNewItem = (
-  page_href,
-  roller_srcset,
-  roller_src,
-  img_alt,
-  roller_title,
-  roller_about,
-  video_src,
-  video_srcset,
-  header_title,
-  header_subtitle,
-  about_title,
-  about_text,
-  watch_price,
-  img_srcset,
-  img_src,
-  style_class,
-  sidepanel_class,
-  doc_title
-) => {
-  return fetch("http://localhost:3000/watches_data", {
-    method: "POST",
+const addNewItem = async (newWatchData) => {
+  return await fetch(`${watchesDataURL}`, {
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
       id: uuid.v4(),
-      page_href,
-      roller_srcset,
-      roller_src,
-      img_alt,
-      roller_title,
-      roller_about,
-      video_src,
-      video_srcset,
-      header_title,
-      header_subtitle,
-      about_title,
-      about_text,
-      watch_price,
-      img_srcset,
-      img_src,
-      style_class,
-      sidepanel_class,
-      doc_title,
+      ...newWatchData,
     }),
   })
     .then((response) => response)
-    .catch((error) => error);
+    .catch((error) =>
+      console.error(
+        `There was an error trying to Add a new watch, Error: => ${error}`
+      )
+    );
 };
 
-const updateWatchData = (
-  id,
-  page_href,
-  roller_srcset,
-  roller_src,
-  img_alt,
-  roller_title,
-  roller_about,
-  video_src,
-  video_srcset,
-  header_title,
-  header_subtitle,
-  about_title,
-  about_text,
-  watch_price,
-  img_srcset,
-  img_src,
-  style_class,
-  sidepanel_class,
-  doc_title
-) => {
-  return fetch(`http://localhost:3000/watches_data/${id}`, {
-    method: "PUT",
+const updateWatchData = async (newWatchData) => {
+  return await fetch(`${watchesDataURL}/${newWatchData.id}`, {
+    method: 'PUT',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      id,
-      page_href,
-      roller_srcset,
-      roller_src,
-      img_alt,
-      roller_title,
-      roller_about,
-      video_src,
-      video_srcset,
-      header_title,
-      header_subtitle,
-      about_title,
-      about_text,
-      watch_price,
-      img_srcset,
-      img_src,
-      style_class,
-      sidepanel_class,
-      doc_title,
+      ...newWatchData,
     }),
   })
     .then((response) => response)
-    .catch((error) => error);
+    .catch((error) =>
+      console.error(
+        `There was an error trying to Update watch data, Error: => ${error}`
+      )
+    );
 };
 
-const deleteItem = (itemId) => {
-  return fetch(`http://localhost:3000/watches_data/${itemId}`, {
-    method: "DELETE",
+const deleteItem = async (itemId) => {
+  return await fetch(`${watchesDataURL}/${itemId}`, {
+    method: 'DELETE',
   });
 };
 
