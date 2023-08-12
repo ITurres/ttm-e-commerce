@@ -33,7 +33,7 @@
 
 - The primary objective of this project was to translate provided wireframes and styles into an e-commerce website, complete with multiple pages catering to various user roles, including administrators and clients. Remarkably, this was achieved with just three HTML files, showcasing an efficient and streamlined approach to web development.
 
-- ### PARTIAL CLONE OF: https://www.rolex.com/ (November 2022 version)
+- ### PARTIAL CLONE OF: [www.rolex.com](https://web.archive.org/web/20221104205955/https://www.rolex.com/en-us) (October 2022 version - from _web.archive_)
 
 ---
 
