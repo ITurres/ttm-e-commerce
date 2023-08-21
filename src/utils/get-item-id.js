@@ -1,21 +1,20 @@
 import { adminServices } from "../login/service/admin-service.js";
 
-//!accesing to the data been fetch and callinf the function in either case (fetch succesfully or not)
-//! is important, since in both cases, the -constant- $watchItems won't exist when page loads..//
+//!Invoke 'getItemId' in either case (fetch successfully or not)
+//! is important, since in both cases, the -constant- $watchItems won't exist when page loads for later use
 adminServices
   .watchItems()
   .then((data) => {
-    getItemId(); //?if data from watches-data.json is fetched succefully => setItem//
+    getItemId(); //? data loaded from json
   })
   .catch((error) => {
-    getItemId(); //?if NOT => also setItem//
+    getItemId(); //? data loaded from watches-data.js
   });
 
 const getItemId = () => {
   const $watchItems = document.querySelectorAll("[data-watch-item]");
   $watchItems.forEach((item) => {
     item.addEventListener("click", () => {
-      console.log(item.id);
       localStorage.setItem("watchId", item.id);
     });
   });

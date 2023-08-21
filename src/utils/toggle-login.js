@@ -1,4 +1,4 @@
-import { showSidepanel } from "./sidepanel.js";
+import { showSidePanel } from "./sidepanel.js";
 
 const $loginModal = document.querySelector("[data-modal-holder]");
 const $toggleLoginModal = document.querySelectorAll("[data-toggle-modal]");
@@ -6,7 +6,7 @@ const $toggleLoginModal = document.querySelectorAll("[data-toggle-modal]");
 $toggleLoginModal.forEach((btn) => {
   btn.addEventListener("click", () => {
     toggleModal();
-    showSidepanel();
+    showSidePanel();
   });
 });
 
@@ -17,6 +17,6 @@ const toggleModal = () => {
 window.addEventListener("click", (event) => {
   if (event.target === $loginModal) {
     toggleModal();
-    showSidepanel();
+    showSidePanel();
   }
 });
